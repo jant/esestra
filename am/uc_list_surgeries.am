@@ -1,0 +1,26 @@
+= UseCase <<list>> Surgeries =
+
+== description ==
+System predlozi seznam evidovanych [[surgery]].
+
+== preconditions ==
+
+== scenario ==
+System predlozi seznam evidovanych [[surgery]]. Kazda polozka seznamu obsahuje tyto udaje:
+  - [[surgery_name]]
+  - [[specialty_name]] < [[surgery_specialty]]
+  - [[adress_city]] < [[surgery_adress]]
+  - [[adress_street]] < [[surgery_adress]]
+  - [[surgery_phone]]
+  - [[surgery_email]]
+  - [[surgery_web]]
+
+== postconditions ==
+
+== errors ==
+
+== examples ==
+ENT - Med s.r.o., ambulance ORL |ORL          |Brno |Dobrovského 23 |541 425 216 |janecdal@seznam.cz  |www.polido.cz
+Ortopedická ambulance           |Ortopedie    |Brno |Pionýrská 11   |549 242 126 |dr.ambroz@gmail.com |
+Odborný oèní lékaø              |Oftalmologie |Brno |Èeská 1        |542 217 420 |giacintov@volny.cz  |www.giacintov.cz
+

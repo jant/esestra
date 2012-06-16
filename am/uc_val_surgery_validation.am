@@ -1,0 +1,36 @@
+= UseCase <<validation>> Surgery validation =
+
+== description ==
+System overi, zda udaje o [[surgery]] zadane na formulari splnuji systemova
+omezeni a jsou platne.
+
+== preconditions ==
+ 
+== scenario ==
+Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
+  # jednoznacnost: [[surgery_name]]
+  # [[surgery_name]] je povinny
+  # [[surgery_name]] <= 40
+  # [[surgery_specialty]] je povinny
+  # [[surgery_adress]] je povinny
+  # [[surgery_phone]] <= 200
+  # [[surgery_email]] <= 200
+  # [[surgery_web]] <= 200
+
+
+== postconditions ==
+  - Udaje na formulari splnuji systemova omezeni a jsou platne.
+
+== errors ==
+  # Jiz je evidovana jina ordinace se jmenem = [%1].
+  # Jmeno ordinace je povinne.
+  # Jmeno ordinace muze mit delku maximalne 40 znaku.
+  # Specializace ordinace je povinna.
+  # Adresa ordinace je povinna.
+  # Telefon ordinace muze mit delku maximalne 200 znaku.
+  # Email ordinace muze mit delku maximalne 200 znaku.
+  # Web ordinace muze mit delku maximalne 200 znaku.
+
+
+
+

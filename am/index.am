@@ -1,0 +1,33 @@
+= Analyticky model IS esestra =
+Tento dokument je analytickym modelem informacniho systemu pro online
+objednavani do ordinace. Projekt vyvoje tohoto IS ma kodove jmeno *esestra*.
+
+== Zamer projektu ==
+Moji dva kamaradi, lekari, kteri provozuji 2 ORL ordinace v Brne, mne pozadali o
+vytvoreni weboveho systemu, prostrednictvim ktereho se budou moci pacienti
+objednavat k navsteve jejich ordinaci. 
+
+V soucasne dobe se objednavky realizuji tak, ze pacient zavola do ordinace a
+komunikaci se sestrou objedna termin navstevy, ktery mu vyhovuje. 
+
+Telefonaty ovsem rusi lekare a berou sestre zbytecne cas. Webovy
+online objednavkovy system tyto nevyhody odstrani a navic poskytne pacientovi
+moznost v klidu si rozmyslet, kdy muze prijit.
+
+Objednavkove systemy na webu jiz nejake v tuto chvili existuji, ale zda se, ze
+nejsou uplne idealni, takze je sance, ze tento projekt by nasel zakazniky i u
+dalsich lekaru nez u mych dvou kamaradu. Takze pri sikovnem (levnem) obchodnim
+modelu portalu by se dalo i neco vydelat. Pro zacatek staci malo, treba jen na
+kryti weboveho hostingu.
+
+== Pozadavky na system ==
+
+=== verze 0.1 ===
+- Zacneme skromne, tzn. uvodni strankou, ktera nebude umet nic jineho, nez
+  zobrazit seznam ordinaci, do kterych se muze pacient objednat.
+
+== Dilci modely ==
+- [[pkg_bpm|Business Process Model]]
+- [[pkg_ucm|UseCase Model]]
+- [[pkg_cm|Class Model]]
+

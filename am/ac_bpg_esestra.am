@@ -1,0 +1,6 @@
+= Activity <<Business Process Group>> esestra =
+
+Modelovanym podnikem je objednavkovy system do ordinace.
+
+Jakykoliv clovek-potencialni pacient se muze podivat, do kterych ordinaci se
+muze objednat. K tomu pouzije [[uc_list_surgeries]].

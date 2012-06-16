@@ -1,0 +1,9 @@
+= Class Specialty =
+
+-- [[specialty]]
+-- omezeni viz [[uc_val_specialty_validation]]
+class Specialty 
+attributes
+  -- [[specialty_name]]
+  name: String
+end

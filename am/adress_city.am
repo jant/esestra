@@ -1,0 +1,13 @@
+= Object <<concept>> Adress City =
+
+== description ==
+
+Mesto v adrese.
+
+== examples ==
+  - "Brno"
+  - "Olomouc"
+  - "Lednice"
+
+
+

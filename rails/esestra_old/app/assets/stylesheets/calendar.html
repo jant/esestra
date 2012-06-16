@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="http://jquery-ui.googlecode.com/svn/trunk/ui/i18n/jquery.ui.datepicker-cs.js"></script>
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet"
+          type="text/css"/>
+
+
+    <style>
+        .plno a {
+            background-color: #ffa496 !important;
+            background-image: none !important;
+        }
+
+        .volno a {
+            background-color: #90ee90 !important;
+            background-image: none !important;
+        }
+
+        a {
+            background-color: #d3d3d3 !important;
+            background-image: none !important;
+        }
+
+    </style>
+
+
+    <script>
+
+        var plno = ['2012/07/11', '2012/07/14'];
+        var volno = ['2012/07/12', '2012/07/13', '2012/07/15'];
+
+        $(document).ready(function () {
+
+
+            $("#datepicker").datepicker({ numberOfMonths:3, beforeShowDay:higlightDays });
+//            $("#datepicker").datepicker({ numberOfMonths:3 });
+
+
+
+            function higlightDays(date) {
+                for (var i = 0; i < plno.length; i++) {
+                    if (new Date(plno[i]).toString() == date.toString()) {
+                        return [true, 'plno'];
+                    }
+                }
+                for (var i = 0; i < volno.length; i++) {
+                    if (new Date(volno[i]).toString() == date.toString()) {
+                        return [true, 'volno'];
+                    }
+                }
+                return [true, ''];
+            }
+        });
+    </script>
+
+
+</head>
+<body style="font-size:80%;">
+
+<div id="datepicker"></div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+orl:
+  name: ENT - Med s.r.o., ambulance ORL
+  specialty: ORL
+
+ort:
+  name: Ortopedicka ambulance
+  specialty: ortopedie
+
+oft:
+  name: Odborny ocni lekar
+  specialty: oftalmologie

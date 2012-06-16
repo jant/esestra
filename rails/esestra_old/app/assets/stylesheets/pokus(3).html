@@ -1,0 +1,381 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        body {
+            line-height: 100%;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        body {
+            font-family: Verdana;
+        }
+
+            /* zahlavi stranky - barevny horni pruh*/
+        #header {
+
+            background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+            height: 60px;
+            border-bottom: 1px;
+            border-color: gray;
+            border-style: solid;
+        }
+
+            /* zajisteni centrovani divu ve strance*/
+        .center {
+            /* levy a pravy okraj automaticke - prohlizec vyrovna okraj tak, aby protilehle strany mely okraj (margin) stejně siroky */
+            margin: 0 auto;
+            /* sirku volim tak, aby zustaly nejake okraje na monitoru se sirkou 1024px */
+            width: 50em;
+            padding: 1.5em 1em;
+        }
+
+            /*titulek stranky eSestra*/
+        #title {
+            font-size: 200%;
+            font-weight: bold;
+            color: #dc143c;
+            font-style: italic;
+        }
+
+            /*podtitulek stranky Online objednavky do ordinaci*/
+        #subtitle {
+            font-size: 80%;
+            color: rgb(0,39,90);
+        }
+
+            /* hlavni obsah stranky -vycentrovani cele stranky v ramci okna prohlizece */
+        #main {
+        }
+
+        .card {
+            background: -moz-linear-gradient(top, #ededed 0%, #f6f6f6 53%, #ffffff 100%); /* FF3.6+ */
+            width: 280px;
+            height: 250px;
+            border: 1px;
+            border-color: gray;
+            border-style: solid;
+            margin: 0.5em 0.5em 0.5em 0;
+            padding: 0.5em;
+        }
+
+        td,p {
+            font-size: 11px;
+
+        }
+
+        .caption {
+            font-size: 13px;
+            font-weight: bold;
+            color: rgb(0,39,90);
+        }
+
+    </style>
+</head>
+
+<body>
+<div id="header">
+    <div class="center">
+        <span id="title">eSestra</span>
+        <span id="subtitle">...online objednání do ordinace</span>
+    </div>
+</div>
+<div class="center" id="main">
+    <table>
+        <tr>
+            <td>
+                <div class="card">
+                    <p class="caption">ENT - Med s.r.o., ambulance ORL</p>
+                    <p class="caption">ORL</p>
+                    <p>Brno</p>
+                    <p>Dobrovského 23</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>541 425 216</td></tr>
+                        <tr><td>Email:</td><td>janecdal@seznam.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.polido.cz">www.polido.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Ortopedická ambulance</p>
+                    <p class="caption">Ortopedie</p>
+                    <p>Brno</p>
+                    <p>Pionýrská 11</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>549 242 126</td></tr>
+                        <tr><td>Email:</td><td>dr.ambroz@cgmail.com</td></tr>
+                        <tr><td>Web:</td><td></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Odborný oční lékař</p>
+                    <p class="caption">Oftalmologie</p>
+                    <p>Brno</p>
+                    <p>Česká 1</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>542 217 420</td></tr>
+                        <tr><td>Email:</td><td>giacintov@volny.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.giacintov.cz">www.giacintov.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="card">
+                    <p class="caption">ENT - Med s.r.o., ambulance ORL</p>
+                    <p class="caption">ORL</p>
+                    <p>Brno</p>
+                    <p>Dobrovského 23</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>541 425 216</td></tr>
+                        <tr><td>Email:</td><td>janecdal@seznam.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.polido.cz">www.polido.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Ortopedická ambulance</p>
+                    <p class="caption">Ortopedie</p>
+                    <p>Brno</p>
+                    <p>Pionýrská 11</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>549 242 126</td></tr>
+                        <tr><td>Email:</td><td>dr.ambroz@cgmail.com</td></tr>
+                        <tr><td>Web:</td><td></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Odborný oční lékař</p>
+                    <p class="caption">Oftalmologie</p>
+                    <p>Brno</p>
+                    <p>Česká 1</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>542 217 420</td></tr>
+                        <tr><td>Email:</td><td>giacintov@volny.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.giacintov.cz">www.giacintov.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="card">
+                    <p class="caption">ENT - Med s.r.o., ambulance ORL</p>
+                    <p class="caption">ORL</p>
+                    <p>Brno</p>
+                    <p>Dobrovského 23</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>541 425 216</td></tr>
+                        <tr><td>Email:</td><td>janecdal@seznam.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.polido.cz">www.polido.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Ortopedická ambulance</p>
+                    <p class="caption">Ortopedie</p>
+                    <p>Brno</p>
+                    <p>Pionýrská 11</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>549 242 126</td></tr>
+                        <tr><td>Email:</td><td>dr.ambroz@cgmail.com</td></tr>
+                        <tr><td>Web:</td><td></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Odborný oční lékař</p>
+                    <p class="caption">Oftalmologie</p>
+                    <p>Brno</p>
+                    <p>Česká 1</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>542 217 420</td></tr>
+                        <tr><td>Email:</td><td>giacintov@volny.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.giacintov.cz">www.giacintov.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="card">
+                    <p class="caption">ENT - Med s.r.o., ambulance ORL</p>
+                    <p class="caption">ORL</p>
+                    <p>Brno</p>
+                    <p>Dobrovského 23</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>541 425 216</td></tr>
+                        <tr><td>Email:</td><td>janecdal@seznam.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.polido.cz">www.polido.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Ortopedická ambulance</p>
+                    <p class="caption">Ortopedie</p>
+                    <p>Brno</p>
+                    <p>Pionýrská 11</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>549 242 126</td></tr>
+                        <tr><td>Email:</td><td>dr.ambroz@cgmail.com</td></tr>
+                        <tr><td>Web:</td><td></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <p class="caption">Odborný oční lékař</p>
+                    <p class="caption">Oftalmologie</p>
+                    <p>Brno</p>
+                    <p>Česká 1</p>
+                    <br>
+                    <table>
+                        <tr><td>Telefon:</td><td>542 217 420</td></tr>
+                        <tr><td>Email:</td><td>giacintov@volny.cz</td></tr>
+                        <tr><td>Web:</td><td><a href="http://www.giacintov.cz">www.giacintov.cz</a></td></tr>
+                    </table>
+                    <br>
+                    <p>Ordinační hodiny:</p>
+                    <p>Po 8-14</p>
+                    <p>Ut 8-14</p>
+                    <p>St 8-12</p>
+                    <p>Ct 8-12</p>
+                    <p>Pa 8-12</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+
+</html>

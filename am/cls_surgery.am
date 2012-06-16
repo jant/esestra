@@ -1,0 +1,31 @@
+= Class Surgery =
+
+-- [[surgery]]
+-- omezeni viz [[uc_val_surgery_validation]]
+class Surgery 
+attributes
+  -- [[surgery_name]]
+  name: String
+  -- [[surgery_phone]]
+  phone: String
+  -- [[surgery_email]]
+  email: String
+  -- [[surgery_web]]
+  web: String
+end
+
+-- pattern: Car_has_Colour
+association SurgerySpecialty between
+  Surgery[*]
+  -- [[surgery_specialty]]
+  Specialty[1]
+end
+
+-- pattern: Person_has_Adress
+composition SurgeryAdress between
+  Surgery[1]
+  -- [[surgery_adress]]
+  Adress[1]
+end
+
+

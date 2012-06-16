@@ -1,0 +1,15 @@
+<h1>Ordinace</h1>
+
+<table>
+  <tr>
+    <th>Název</th>
+    <th>Specializace</th>
+  </tr>
+
+  <% @surgeries.each do |surgery| %>
+      <tr>
+        <td><%= surgery.name %></td>
+        <td><%= surgery.specialty.name %></td>
+      </tr>
+  <% end %>
+</table>

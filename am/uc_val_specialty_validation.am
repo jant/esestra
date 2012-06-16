@@ -1,0 +1,22 @@
+= UseCase <<validation>> Specialty validation =
+
+== description ==
+System overi, zda udaje o [[specialty]] zadane na formulari splnuji systemova
+omezeni a jsou platne.
+
+== preconditions ==
+ 
+== scenario ==
+Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
+  # jednoznacnost: [[specialty_name]]
+  # [[specialty_name]] je povinny
+  # [[specialty_name]] <= 40
+
+
+== postconditions ==
+  - Udaje na formulari splnuji systemova omezeni a jsou platne.
+
+== errors ==
+  # Jiz je evidovana jina specializace se jmenem = [%1].
+  # Jmeno specializace je povinne.
+  # Jmeno specializace muze mit delku maximalne 40 znaku.

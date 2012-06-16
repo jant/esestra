@@ -1,0 +1,12 @@
+= Object <<concept>> Adress Street =
+
+== description ==
+
+Jmeno ulice a cislo domu v adrese.
+
+== examples ==
+  - "Dobrovského 23"
+  - "Pionýrská 11"
+  - "Èeská 1"
+
+
