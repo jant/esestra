@@ -19,4 +19,4 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
 == errors ==
   # Jiz je evidovana jina specializace se jmenem = [%1].
   # Jmeno specializace je povinne.
-  # Jmeno specializace muze mit delku maximalne 40 znaku.
+  # Jmeno specializace muze obsahovat maximalne 40 znaku.
