@@ -1,0 +1,11 @@
+cs:
+
+  activerecord:
+    errors:
+      models:
+        specialty:
+          attributes:
+            name:
+              taken: 'Specializace se jménem=[%{value}] již je evidována'
+              blank: 'Jméno specializace je povinné'
+              too_long: 'Jméno specializace může obsahovat maximálně %{count} znaků'

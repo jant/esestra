@@ -17,6 +17,6 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   - Udaje na formulari splnuji systemova omezeni a jsou platne.
 
 == errors ==
-  # Jiz je evidovana jina specializace se jmenem = [%1].
+  # Specializace se jmenem=[%1] jiz je evidovana.
   # Jmeno specializace je povinne.
   # Jmeno specializace muze obsahovat maximalne 40 znaku.
