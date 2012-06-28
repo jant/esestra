@@ -9,19 +9,19 @@ class SpecialtyTest < ActiveSupport::TestCase
     assert specialties('Oftalmologie').valid?
   end
 
-  test 'uniqueness' do
+  test 'must invalid if name is not unique' do
     specialty = Specialty.new(name: 'ORL')
     assert specialty.invalid?
     assert_equal "Specializace se jménem=[ORL] již je evidována", specialty.errors[:name].join
   end
 
-  test 'name is required' do
+  test 'must be invalid if required attributes are not present' do
     specialty = Specialty.new()
     assert specialty.invalid?
     assert_equal 'Jméno specializace je povinné', specialty.errors[:name].join
   end
 
-  test 'name max length' do
+  test 'must be invalid if name is too long' do
     specialty = Specialty.new(name: 'a' * 41)
     assert specialty.invalid?
     assert_equal 'Jméno specializace může obsahovat maximálně 40 znaků', specialty.errors[:name].join
