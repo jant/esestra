@@ -9,8 +9,8 @@ omezeni a jsou platne.
 == scenario ==
 Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   # [[adress_city]] je povinny
-  # [[adress_city]] <= 200
   # [[adress_street]] je povinny
+  # [[adress_city]] <= 200
   # [[adress_street]] <= 200
 
 == postconditions ==
@@ -18,7 +18,6 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
 
 == errors ==
   # Mesto v adrese je povinne.
-  # Mesto v adrese muze mit delku maximalne 200 znaku.
   # Ulice v adrese je povinna.
-  # Ulice v adrese muze mit delku maximalne 200 znaku.
-
+  # Mesto v adrese muze obsahovat maximalne 200 znaku.
+  # Ulice v adrese muze obsahovat maximalne 200 znaku.
