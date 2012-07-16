@@ -9,3 +9,11 @@ cs:
               taken: 'Specializace se jménem=[%{value}] již je evidována'
               blank: 'Jméno specializace je povinné'
               too_long: 'Jméno specializace může obsahovat maximálně %{count} znaků'
+        adress:
+          attributes:
+            city:
+              blank: 'Město v adrese je povinné'
+              too_long: 'Město v adrese může obsahovat maximálně %{count} znaků'
+            street:
+              blank: 'Ulice v adrese je povinná'
+              too_long: 'Ulice v adrese může obsahovat maximálně %{count} znaků'

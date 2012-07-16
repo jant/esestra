@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+Dobrovskeho:
+  city: Brno
+  street: Dobrovského 23
+
+Pionyrska:
+  city: Brno
+  street: Pionýrská 11
+
+Ceska:
+  city: Brno
+  street: Česká 1

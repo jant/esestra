@@ -9,7 +9,7 @@ class SpecialtyTest < ActiveSupport::TestCase
     assert specialties('Oftalmologie').valid?
   end
 
-  test 'must invalid if name is not unique' do
+  test 'must be invalid if name is not unique' do
     specialty = Specialty.new(name: 'ORL')
     assert specialty.invalid?
     assert_equal "Specializace se jménem=[ORL] již je evidována", specialty.errors[:name].join
