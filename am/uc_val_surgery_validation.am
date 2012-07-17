@@ -8,11 +8,12 @@ omezeni a jsou platne.
  
 == scenario ==
 Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
-  # jednoznacnost: [[surgery_name]]
+  # [[surgery_name]] je jednoznacny
   # [[surgery_name]] je povinny
-  # [[surgery_name]] <= 40
   # [[surgery_specialty]] je povinny
   # [[surgery_adress]] je povinny
+  # [[surgery_specialty]] je z rejstriku
+  # [[surgery_name]] <= 40
   # [[surgery_phone]] <= 200
   # [[surgery_email]] <= 200
   # [[surgery_web]] <= 200
@@ -22,14 +23,15 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   - Udaje na formulari splnuji systemova omezeni a jsou platne.
 
 == errors ==
-  # Jiz je evidovana jina ordinace se jmenem = [%1].
+  # Ordinace se jmenem="%1" jiz je evidovana.
   # Jmeno ordinace je povinne.
-  # Jmeno ordinace muze mit delku maximalne 40 znaku.
   # Specializace ordinace je povinna.
   # Adresa ordinace je povinna.
-  # Telefon ordinace muze mit delku maximalne 200 znaku.
-  # Email ordinace muze mit delku maximalne 200 znaku.
-  # Web ordinace muze mit delku maximalne 200 znaku.
+  # Specializace ordinace neexistuje v rejstriku specializaci.
+  # Jmeno ordinace muze obsahovat maximalne 40 znaku.
+  # Telefon ordinace muze obsahovat maximalne 200 znaku.
+  # Email ordinace muze obsahovat maximalne 200 znaku.
+  # Web ordinace muze obsahovat maximalne 200 znaku.
 
 
 

@@ -1,0 +1,57 @@
+#encoding: utf-8
+
+require 'test_helper'
+
+class SurgeryTest < ActiveSupport::TestCase
+  test 'fixtures must be valid' do
+    assert surgeries('ORL').valid?
+    assert surgeries('Ortopedie').valid?
+    assert surgeries('Oftalmologie').valid?
+  end
+
+  test 'must be invalid if name is not unique' do
+    surgery = Surgery.new(name: 'Ortopedická ambulance')
+    assert surgery.invalid?
+    assert_equal 'Ordinace se jménem="Ortopedická ambulance" již je evidována', surgery.errors[:name].join
+  end
+
+  test 'must be invalid if required attributes are not present' do
+    surgery = Surgery.new
+    assert surgery.invalid?
+    assert_equal 'Jméno ordinace je povinné', surgery.errors[:name].join
+    assert_equal 'Specializace ordinace je povinná', surgery.errors[:specialty].join
+    assert_equal 'Adresa ordinace je povinná', surgery.errors[:adress].join
+  end
+
+  test 'must be invalid if specialty does not exist in glossary' do
+    surgery = Surgery.new
+    surgery.specialty_id = 0
+    assert surgery.invalid?
+    assert_equal 'Specializace ordinace neexistuje v rejstříku specializací', surgery.errors[:specialty].join
+  end
+
+  test 'must be invalid if name is too long' do
+    surgery = Surgery.new(name: 'x' * 41)
+    assert surgery.invalid?
+    assert_equal 'Jméno ordinace může obsahovat maximálně 40 znaků', surgery.errors[:name].join
+  end
+
+  test 'must be invalid if phone is too long' do
+    surgery = Surgery.new(phone: 'x' * 201)
+    assert surgery.invalid?
+    assert_equal 'Telefon ordinace může obsahovat maximálně 200 znaků', surgery.errors[:phone].join
+  end
+
+  test 'must be invalid if email is too long' do
+    surgery = Surgery.new(email: 'x' * 201)
+    assert surgery.invalid?
+    assert_equal 'Email ordinace může obsahovat maximálně 200 znaků', surgery.errors[:email].join
+  end
+
+  test 'must be invalid if web is too long' do
+    surgery = Surgery.new(web: 'x' * 201)
+    assert surgery.invalid?
+    assert_equal 'Web ordinace může obsahovat maximálně 200 znaků', surgery.errors[:web].join
+  end
+
+end

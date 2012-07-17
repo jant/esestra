@@ -6,7 +6,7 @@ cs:
         specialty:
           attributes:
             name:
-              taken: 'Specializace se jménem=[%{value}] již je evidována'
+              taken: 'Specializace se jménem="%{value}" již je evidována'
               blank: 'Jméno specializace je povinné'
               too_long: 'Jméno specializace může obsahovat maximálně %{count} znaků'
         adress:
@@ -17,3 +17,20 @@ cs:
             street:
               blank: 'Ulice v adrese je povinná'
               too_long: 'Ulice v adrese může obsahovat maximálně %{count} znaků'
+        surgery:
+          attributes:
+            name:
+              taken: 'Ordinace se jménem="%{value}" již je evidována'
+              blank: 'Jméno ordinace je povinné'
+              too_long: 'Jméno ordinace může obsahovat maximálně %{count} znaků'
+            specialty:
+              blank: 'Specializace ordinace je povinná'
+              existece: 'Specializace ordinace neexistuje v rejstříku specializací'
+            adress:
+              blank: 'Adresa ordinace je povinná'
+            phone:
+              too_long: 'Telefon ordinace může obsahovat maximálně %{count} znaků'
+            email:
+              too_long: 'Email ordinace může obsahovat maximálně %{count} znaků'
+            web:
+              too_long: 'Web ordinace může obsahovat maximálně %{count} znaků'
