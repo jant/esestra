@@ -1,0 +1,12 @@
+= Class Surgery =
+
+-- [[address]]
+-- omezeni viz [[uc_val_address_validation]]
+class Adress 
+attributes
+  -- [[address_city]]
+  city: String
+  -- [[address_street]]
+  street: String
+end
+

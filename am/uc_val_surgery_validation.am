@@ -11,8 +11,7 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   # [[surgery_name]] je jednoznacny
   # [[surgery_name]] je povinny
   # [[surgery_specialty]] je povinny
-  # [[surgery_adress]] je povinny
-  # [[surgery_specialty]] je z rejstriku
+  # [[surgery_address]] je povinny
   # [[surgery_name]] <= 40
   # [[surgery_phone]] <= 200
   # [[surgery_email]] <= 200
@@ -27,7 +26,6 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   # Jmeno ordinace je povinne.
   # Specializace ordinace je povinna.
   # Adresa ordinace je povinna.
-  # Specializace ordinace neexistuje v rejstriku specializaci.
   # Jmeno ordinace muze obsahovat maximalne 40 znaku.
   # Telefon ordinace muze obsahovat maximalne 200 znaku.
   # Email ordinace muze obsahovat maximalne 200 znaku.

@@ -1,6 +1,6 @@
-class CreateAdresses < ActiveRecord::Migration
+class CreateAddresses < ActiveRecord::Migration
   def change
-    create_table :adresses do |t|
+    create_table :addresses do |t|
       t.string :city
       t.string :street
 

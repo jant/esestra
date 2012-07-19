@@ -11,25 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120717181934) do
-
-  create_table "adresses", :force => true do |t|
-    t.string   "city"
-    t.string   "street"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+ActiveRecord::Schema.define(:version => 20120716000002) do
 
   create_table "specialties", :force => true do |t|
-    t.string   "name"
+    t.string   "name",       :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
+  add_index "specialties", ["name"], :name => "index_specialties_on_name", :unique => true
+
   create_table "surgeries", :force => true do |t|
-    t.string   "name"
-    t.integer  "specialty_id"
-    t.integer  "adress_id"
+    t.string   "name",         :null => false
+    t.integer  "specialty_id", :null => false
     t.string   "phone"
     t.string   "email"
     t.string   "web"
@@ -37,7 +31,7 @@ ActiveRecord::Schema.define(:version => 20120717181934) do
     t.datetime "updated_at",   :null => false
   end
 
-  add_index "surgeries", ["adress_id"], :name => "index_surgeries_on_adress_id"
+  add_index "surgeries", ["name"], :name => "index_surgeries_on_name", :unique => true
   add_index "surgeries", ["specialty_id"], :name => "index_surgeries_on_specialty_id"
 
 end

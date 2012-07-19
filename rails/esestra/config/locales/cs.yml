@@ -25,7 +25,7 @@ cs:
               too_long: 'Jméno ordinace může obsahovat maximálně %{count} znaků'
             specialty:
               blank: 'Specializace ordinace je povinná'
-              existece: 'Specializace ordinace neexistuje v rejstříku specializací'
+#              existence: 'Specializace ordinace neexistuje v rejstříku specializací'
             adress:
               blank: 'Adresa ordinace je povinná'
             phone:

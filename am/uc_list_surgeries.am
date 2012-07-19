@@ -9,8 +9,8 @@ System predlozi seznam evidovanych [[surgery]].
 System predlozi seznam evidovanych [[surgery]]. Kazda polozka seznamu obsahuje tyto udaje:
   - [[surgery_name]]
   - [[specialty_name]] < [[surgery_specialty]]
-  - [[adress_city]] < [[surgery_adress]]
-  - [[adress_street]] < [[surgery_adress]]
+  - [[address_city]] < [[surgery_address]]
+  - [[address_street]] < [[surgery_address]]
   - [[surgery_phone]]
   - [[surgery_email]]
   - [[surgery_web]]

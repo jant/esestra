@@ -21,11 +21,11 @@ association SurgerySpecialty between
   Specialty[1]
 end
 
--- pattern: Person_has_Adress
-composition SurgeryAdress between
+-- pattern: Person_has_Address
+composition SurgeryAddress between
   Surgery[1]
-  -- [[surgery_adress]]
-  Adress[1]
+  -- [[surgery_address]]
+  Address[1]
 end
 
 

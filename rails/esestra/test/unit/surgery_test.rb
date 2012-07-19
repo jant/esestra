@@ -20,14 +20,7 @@ class SurgeryTest < ActiveSupport::TestCase
     assert surgery.invalid?
     assert_equal 'Jméno ordinace je povinné', surgery.errors[:name].join
     assert_equal 'Specializace ordinace je povinná', surgery.errors[:specialty].join
-    assert_equal 'Adresa ordinace je povinná', surgery.errors[:adress].join
-  end
-
-  test 'must be invalid if specialty does not exist in glossary' do
-    surgery = Surgery.new
-    surgery.specialty_id = 0
-    assert surgery.invalid?
-    assert_equal 'Specializace ordinace neexistuje v rejstříku specializací', surgery.errors[:specialty].join
+    #assert_equal 'Adresa ordinace je povinná', surgery.errors[:adress].join
   end
 
   test 'must be invalid if name is too long' do
