@@ -31,6 +31,12 @@ test:
   password: root
   host: localhost
 
+#test:
+#  adapter: sqlite3
+#  database: db/test.sqlite3
+#  pool: 5
+#  timeout: 5000
+
 production:
   adapter: mysql2
   encoding: utf8
