@@ -12,20 +12,20 @@ class AddressTest < ActiveSupport::TestCase
   test 'must be invalid if required attributes are not present' do
     address = Address.new
     assert address.invalid?
-    assert_equal 'Město v adrese je povinné', address.errors[:city].join
-    assert_equal 'Ulice v adrese je povinná', address.errors[:street].join
+    assert_equal 'Město v adrese je povinné', address.errors[:city].first
+    assert_equal 'Ulice v adrese je povinná', address.errors[:street].first
   end
 
   test 'must be invalid if city is too long' do
     address = Address.new(city: 'x' * 201)
     assert address.invalid?
-    assert_equal 'Město v adrese může obsahovat maximálně 200 znaků', address.errors[:city].join
+    assert_equal 'Město v adrese může obsahovat maximálně 200 znaků', address.errors[:city].first
   end
 
   test 'must be invalid if street is too long' do
     address = Address.new(street: 'x' * 201)
     assert address.invalid?
-    assert_equal 'Ulice v adrese může obsahovat maximálně 200 znaků', address.errors[:street].join
+    assert_equal 'Ulice v adrese může obsahovat maximálně 200 znaků', address.errors[:street].first
   end
 
 end

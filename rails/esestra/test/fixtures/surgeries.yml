@@ -3,6 +3,7 @@
 ORL:
   name: ENT - Med s.r.o., ambulance ORL
   specialty: ORL
+  address: Dobrovskeho
   phone: 541 425 216
   email: janecdal@seznam.cz
   web: www.polido.cz
@@ -10,6 +11,7 @@ ORL:
 Ortopedie:
   name: Ortopedická ambulance
   specialty: Ortopedie
+  address: Pionyrska
   phone: 549 242 126
   email: dr.ambroz@gmail.com
   web:
@@ -17,6 +19,7 @@ Ortopedie:
 Oftalmologie:
   name: Odborný oční lékař
   specialty: Oftalmologie
+  address: Ceska
   phone: 542 217 420
   email: giacintov@volny.cz
   web: www.giacintov.cz

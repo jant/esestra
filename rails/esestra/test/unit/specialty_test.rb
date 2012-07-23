@@ -15,7 +15,7 @@ class SpecialtyTest < ActiveSupport::TestCase
     assert_equal 'Specializace se jménem="ORL" již je evidována', specialty.errors[:name].first
   end
 
-  test 'must be invalid if requiresd attributes are not present' do
+  test 'must be invalid if required attributes are not present' do
     specialty = Specialty.new
     assert specialty.invalid?
     assert_equal 'Jméno specializace je povinné', specialty.errors[:name].first
@@ -31,12 +31,13 @@ class SpecialtyTest < ActiveSupport::TestCase
     # ve verzi rails 3.2.6 destroy pri poruseni dependent restrict zveda vyjimku
     # v dalsich verzich rails jiz nebude zvedat vyjimku, ale bude zapisovat do errors[:base] danou chybu. Mozna to bude zaviset na parametru dependent_restrict_raises...
     # take by melo byt mozne chybove hlaseni osetrit pomoci I18n
+    count = Specialty.count
     specialty = specialties('ORL')
     begin
       specialty.destroy
     rescue ActiveRecord::DeleteRestrictionError => e
       assert_equal "Cannot delete record because of dependent surgeries", e.message
     end
-    assert_equal 3, Specialty.count
+    assert_equal count, Specialty.count
   end
 end
