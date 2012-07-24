@@ -47,4 +47,13 @@ class SurgeryTest < ActiveSupport::TestCase
     assert_equal 'Web ordinace může obsahovat maximálně 200 znaků', surgery.errors[:web].first
   end
 
+  test 'must destroy also his component address' do
+    surgery = surgeries('ORL')
+    s_count = Surgery.count
+    a_count = Address.count
+    surgery.destroy
+    assert_equal s_count-1, Surgery.count
+    assert_equal a_count-1, Address.count
+  end
+
 end
