@@ -1,0 +1,22 @@
+= UseCase <<Register>> Specialty =
+
+== description ==
+Zalozeni/zmena/zruseni [[specialty]] v rejstriku.
+
+== preconditions ==
+
+== scenario ==
+Pro zalozeni nove [[specialty]] uzivatel pouzije [[uc_insert_specialty]].
+
+Pro zmenu jmena jiz evidovane [[specialty]] uzivatel pouzije [[uc_update_specialty]].
+
+Pro zruseni evidovane [[specialty]] uzivatel pouzije [[uc_delete_specialty]].
+
+== postconditions ==
+
+== errors ==
+
+
+
+
+  

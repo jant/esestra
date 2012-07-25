@@ -1,0 +1,23 @@
+= UseCase <<Determine>> Specialty =
+
+== description ==
+Uzivatel urci prave jednu [[specialty]] evidovanou v rejstriku.
+
+== preconditions ==
+
+== scenario ==
+System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
+  - [[specialty_name]]
+
+Pro zjisteni, ktere [[specialty]] jsou v rejstriku evidovane, uzivatel
+pouzije [[uc_list_specialties|seznam]].
+  
+Pokud zadanemu jmenu neodpovida zadna evidovana [[specialty]], tak ERR1.
+
+== postconditions ==
+  - Je urcena [[specialty]]. 
+
+== errors ==
+  # Specializace se jmenem="%1" neni v rejstriku evidovana.
+
+

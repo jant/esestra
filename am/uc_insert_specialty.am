@@ -1,0 +1,23 @@
+= UseCase <<insert>> Specialty =
+
+== description ==
+Uzivatel zada udaje a system zalozi do rejstriku novou [[specialty]].
+
+== preconditions ==
+
+== scenario ==
+System predlozi prazdny formular. Uzivatel zada udaje:
+  -*[[specialty_name]]!
+
+Uzivatel odevzda vyplneny formular. 
+
+System [[uc_validate_specialty|overi platnost]] zadanych udaju. System
+zalozi novou kartu [[specialty]].
+
+== postconditions ==
+  - Je zalozena [[specialty]]. 
+
+== errors ==
+
+ 
+

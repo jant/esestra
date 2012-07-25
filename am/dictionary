@@ -1,4 +1,7 @@
+ac_bpg_administratorske_cinnosti.am
 ac_bpg_esestra.am
+ac_bpg_objednavani_pacientu.am
+ac_bp_udrzba_rejstriku_specializaci.am
 address.am
 address_city.am
 address_street.am
@@ -18,7 +21,13 @@ surgery_name.am
 surgery_phone.am
 surgery_specialty.am
 surgery_web.am
+uc_delete_specialty.am
+uc_determine_specialty.am
+uc_insert_specialty.am
+uc_list_specialties.am
 uc_list_surgeries.am
-uc_val_address_validation.am
-uc_val_specialty_validation.am
-uc_val_surgery_validation.am
+uc_register_specialty.am
+uc_update_specialty.am
+uc_validate_address.am
+uc_validate_specialty.am
+uc_validate_surgery.am

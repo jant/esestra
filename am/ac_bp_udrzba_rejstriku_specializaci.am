@@ -1,0 +1,10 @@
+= Activity <<Business Process>> Udrzba rejstriku specializaci =
+
+Kazda ordinace, ktera se chce do systemu zapojit, aby se do ni mohli pacienti
+objednavat, musi do systemu zavest svou vizitku a na ni musi byt povinne uvedena
+specializace.
+
+Rejstrik pouzitelnych specializaci je vytvoren jiz pri instalaci systemu, ale pokud se vyjimecne stane, ze
+nejaka specializace v rejstriku chybi, tak administrator musi do
+rejstriku novou specializaci vlozit (muze take zmenit jmeno existujici specializace nebo
+specializaci v rejstriku zrusit). K tomu pouzije [[uc_register_specialty]].

@@ -1,0 +1,18 @@
+= UseCase <<List>> Specialty =
+
+== description ==
+System predlozi seznam evidovanych [[specialty]].
+
+== preconditions ==
+
+== scenario ==
+System predlozi seznam evidovanych [[specialty]]. Kazda polozka seznamu obsahuje tyto udaje:
+  - [[specialty_name]]
+   
+== postconditions ==
+
+== errors ==
+
+ 
+ 
+

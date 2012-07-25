@@ -1,7 +1,7 @@
 = Class Surgery =
 
 -- [[surgery]]
--- omezeni viz [[uc_val_surgery_validation]]
+-- omezeni viz [[uc_validate_surgery]]
 class Surgery 
 attributes
   -- [[surgery_name]]

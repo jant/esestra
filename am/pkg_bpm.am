@@ -1,6 +1,10 @@
 = Package Business Process Model =
 
 [[ac_bpg_esestra]]
-  [[uc_list_surgeries]]
 
- 
+  [[ac_bpg_objednavani_pacientu]]
+
+  [[ac_bpg_administratorske_cinnosti]]
+    [[ac_bp_udrzba_rejstriku_specializaci]]
+
+

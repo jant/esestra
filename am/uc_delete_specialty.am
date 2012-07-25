@@ -1,0 +1,24 @@
+= UseCase <<Delete>> Specialty =
+
+== description ==
+Uzivatel zrusi [[specialty]] z rejstriku.
+
+== preconditions ==
+  - Je evidovana [[specialty]] 
+
+== scenario ==
+Uzivatel [[uc_determine_specialty|urci]] [[specialty]], kterou chce zrusit.
+
+Pokud je urcena [[specialty]] pouzita aspon jednou [[surgery]], tak ERR1.
+
+System zrusi kartu [[specialty]].
+
+== postconditions ==
+  - Je zrusena [[specialty]]. 
+
+== errors ==
+  # Specializace je pouzita na vizitce aspon jedne ordinace.
+
+
+ 
+

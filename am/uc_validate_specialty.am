@@ -1,4 +1,4 @@
-= UseCase <<validation>> Specialty validation =
+= UseCase <<Validate>> Specialty =
 
 == description ==
 System overi, zda udaje o [[specialty]] zadane na formulari splnuji systemova

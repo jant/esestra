@@ -1,7 +1,7 @@
 = Class Surgery =
 
 -- [[address]]
--- omezeni viz [[uc_val_address_validation]]
+-- omezeni viz [[uc_validate_address]]
 class Adress 
 attributes
   -- [[address_city]]

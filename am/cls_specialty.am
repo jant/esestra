@@ -1,7 +1,7 @@
 = Class Specialty =
 
 -- [[specialty]]
--- omezeni viz [[uc_val_specialty_validation]]
+-- omezeni viz [[uc_validate_specialty]]
 class Specialty 
 attributes
   -- [[specialty_name]]

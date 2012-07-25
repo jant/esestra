@@ -1,4 +1,4 @@
-= UseCase <<validation>> Address validation =
+= UseCase <<Validate>> Address =
 
 == description ==
 System overi, zda udaje o [[address]] zadane na formulari splnuji systemova

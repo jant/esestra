@@ -1,0 +1,26 @@
+= UseCase <<Update>> Specialty =
+
+== description ==
+Uzivatel u jiz evidovane [[specialty]] v rejstriku zmeni nektere udaje.
+
+== preconditions ==
+  - Je evidovana [[specialty]]. 
+
+== scenario ==
+
+Uzivatel [[uc_determine_specialty|urci]] [[specialty]], jejiz udaje chce zmenit.
+
+System predlozi formular vyplneny udaji urcene [[specialty]]. Uzivatel zada udaje:
+  -*[[specialty_name]]!
+
+Uzivatel odevzda vyplneny formular. 
+
+System [[uc_validate_specialty|overi platnost]] zadanych udaju. System zmeni udaje na karte [[specialty]].
+
+== postconditions ==
+  - Je zmenena [[specialty]]. 
+
+== errors ==
+
+ 
+
