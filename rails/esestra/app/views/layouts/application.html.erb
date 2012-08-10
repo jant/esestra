@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Esestra</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <title>eSestra</title>
+  <%= stylesheet_link_tag  "application", :media => "all" %>
+  <%= yield :css %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
+<div id="header">
+  <div class="center">
+    <span id="title">eSestra</span>
+    <span id="subtitle">...online objednání do ordinace</span>
+  </div>
+</div>
+
+<div class="center" id="main">
 <%= yield %>
+</div>
 
 </body>
 </html>

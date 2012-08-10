@@ -1,21 +1,31 @@
 #encoding: utf-8
 
-<h1>Specializace</h1>
+<% content_for :css do %>
+    <%= stylesheet_link_tag :specialties %>
+<% end %>
+
+<h1>Rejstřík specializací</h1>
+<br>
 
 <table>
   <tr>
     <th>Jméno</th>
-    <th></th>
+    <th class="button_cell"></th>
+    <th class="button_cell"></th>
   </tr>
 
 <% @specialties.each do |specialty| %>
-  <tr>
+  <tr class="<%= cycle('nic', 'shadow_line') %>">
     <td><%= specialty.name %></td>
-    <td><%= link_to 'Edit', edit_specialty_path(specialty) %></td>
+    <td class="button_cell"><%= link_to 'Změna', edit_specialty_path(specialty) %></td>
+    <td class="button_cell"><%= link_to 'Zrušení', edit_specialty_path(specialty) %></td>
   </tr>
 <% end %>
 </table>
 
-<br />
+<br>
 
-<%= link_to 'New Specialty', new_specialty_path %>
+<%= link_to 'Založení nové', new_specialty_path %>
+
+
+
