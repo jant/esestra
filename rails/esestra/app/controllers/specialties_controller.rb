@@ -2,6 +2,6 @@ class SpecialtiesController < ApplicationController
   respond_to :html
 
   def index
-    @specialties = Specialty.all
+    @specialties = Specialty.order(:name).all
   end
 end

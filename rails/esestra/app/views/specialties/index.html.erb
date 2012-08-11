@@ -1,7 +1,7 @@
 #encoding: utf-8
 
 <% content_for :css do %>
-    <%= stylesheet_link_tag :specialties %>
+    <%= stylesheet_link_tag :index %>
 <% end %>
 
 <h1>Rejstřík specializací</h1>
@@ -10,15 +10,15 @@
 <table>
   <tr>
     <th>Jméno</th>
-    <th class="button_cell"></th>
-    <th class="button_cell"></th>
+    <th class="link"></th>
+    <th class="link"></th>
   </tr>
 
 <% @specialties.each do |specialty| %>
-  <tr class="<%= cycle('nic', 'shadow_line') %>">
+  <tr class="<%= cycle('white_line', 'shadow_line') %>">
     <td><%= specialty.name %></td>
-    <td class="button_cell"><%= link_to 'Změna', edit_specialty_path(specialty) %></td>
-    <td class="button_cell"><%= link_to 'Zrušení', edit_specialty_path(specialty) %></td>
+    <td class="link"><%= link_to 'Změna', edit_specialty_path(specialty) %></td>
+    <td class="link"><%= link_to 'Zrušení', edit_specialty_path(specialty) %></td>
   </tr>
 <% end %>
 </table>

@@ -33,12 +33,15 @@ td {
   padding-left: 2px;
 }
 
-.button_cell {
+.link {
   width: 5em;
 }
 
-.shadow_line {
+tr.shadow_line {
   background: #f6f6f6;
+}
+
+tr.white_line {
 }
 
 a {
