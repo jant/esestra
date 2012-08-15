@@ -79,4 +79,60 @@ body {
 #main {
 }
 
+h1 {
+  font-size: 16px;
+  font-style: bold;
+}
 
+table {
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+
+th {
+  width: 20em;
+  font-size: 12px;
+  text-align: left;
+  border-left: 1px;
+  border-bottom: 1px;
+  border-color: gray;
+  border-style: solid;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+  padding-left: 2px;
+}
+
+td {
+  width: 20em;
+  font-size: 12px;
+  text-align: left;
+  margin: 0, 2px;
+  border-left: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding-left: 2px;
+}
+
+.link {
+  width: 5em;
+}
+
+tr.shadow_line {
+  background: #f6f6f6;
+}
+
+tr.white_line {
+}
+
+a {
+  font-size: 12px;
+}
+
+.field {
+  font-size: 12px;
+}
+
+#error_explanation {
+  color: red;
+}

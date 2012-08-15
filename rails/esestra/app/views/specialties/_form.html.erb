@@ -1,17 +1,26 @@
+#encoding: utf-8
+
+<h1>Specializace</h1>
+<br>
+
 <%= form_for(@specialty) do |f| %>
-  <% if @specialty.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@specialty.errors.count, "error") %> prohibited this specialty from being saved:</h2>
+    <% if @specialty.errors.any? %>
+        <div id="error_explanation">
+          <ul>
+            <% @specialty.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+        <br>
+    <% end %>
 
-      <ul>
-      <% @specialty.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+    <div class="field">
+      <%= f.label :name, 'Jméno' %>
+      <%= f.text_field :name %>
     </div>
-  <% end %>
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <br>
+    <div class="actions">
+      <%= f.submit 'Uložení' %>
+    </div>
 <% end %>
