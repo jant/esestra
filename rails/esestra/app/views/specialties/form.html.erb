@@ -24,7 +24,7 @@
       <%= f.submit 'Uložení' %>
       <% if @specialty.id? %>
         <%= link_to 'Založení nové', new_specialty_path %>
-        <%= link_to 'Zrušení', @specialty, confirm: 'Určitě?', method: :delete %>
+        <%= link_to 'Zrušení', @specialty, data: { confirm: 'Určitě?' }, method: :delete %>
         <%= link_to 'Načtení', edit_specialty_path(@specialty) %>
       <% end %>
       <%= link_to 'Rejstřík', specialties_path %>

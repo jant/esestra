@@ -24,4 +24,31 @@ class SpecialtiesControllerTest < ActionController::TestCase
     assert_select 'table tr:nth-child(3) td', 'ORL'
   end
 
+  test 'must get form for new' do
+    get :new
+    assert_response :success
+    assert assigns(:specialty)
+    assert_template :form
+    assert_select 'h1', 'Specializace'
+    assert_select 'form', 1
+    assert_select 'input', name: "specialty[name]"
+    assert_select 'input', value: "Uložení"
+    assert_select 'a', 'Rejstřík'
+  end
+
+  test 'must get form for edit' do
+    get :edit, {id: specialties('ORL').id.to_s}
+    assert_response :success
+    assert_equal assigns(:specialty), specialties('ORL')
+    assert_template :form
+    assert_select 'h1', 'Specializace'
+    assert_select 'form', 1
+    assert_select 'input', name: "specialty[name]", value: 'ORL'
+    assert_select 'input', value: "Uložení"
+    assert_select 'a', 'Založení nové'
+    assert_select 'a', 'Zrušení'
+    assert_select 'a', 'Načtení'
+    assert_select 'a', 'Rejstřík'
+  end
+
 end
