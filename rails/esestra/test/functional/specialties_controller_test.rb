@@ -40,10 +40,40 @@ class SpecialtiesControllerTest < ActionController::TestCase
     get :edit, {id: specialties('ORL').id.to_s}
     assert_response :success
     assert_equal assigns(:specialty), specialties('ORL')
-    assert_template :form
-    assert_select 'h1', 'Specializace'
-    assert_select 'form', 1
+    assert_form 'Specializace'
     assert_select 'input', name: "specialty[name]", value: 'ORL'
+  end
+
+  test 'must create new' do
+    post :create, {specialty: {name: 'Interna'}}
+    assert_response :success
+    assert assigns(:specialty)
+    assert_form 'Specializace'
+    assert_select 'input', name: "specialty[name]", value: 'Interna'
+  end
+
+  test 'must show existing' do
+    get :show, id: specialties('ORL').id.to_s
+    assert_redirected_to edit_specialty_path(specialties('ORL').id)
+  end
+
+  test 'must update existing' do
+    put :update, {id: specialties('ORL').id.to_s, specialty: {name: 'Brr'}}
+    assert_response :success
+    assert assigns(:specialty)
+    assert_form 'Specializace'
+    assert_select 'input', name: "specialty[name]", value: 'Brr'
+  end
+
+  test 'must delete existing' do
+    delete :destroy, id: specialties('Pediatrie').id.to_s
+    assert_redirected_to specialties_path
+  end
+
+  def assert_form(header_name)
+    assert_template :form
+    assert_select 'h1', header_name
+    assert_select 'form', 1
     assert_select 'input', value: "Uložení"
     assert_select 'a', 'Založení nové'
     assert_select 'a', 'Zrušení'
