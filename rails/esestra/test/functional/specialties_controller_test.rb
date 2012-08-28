@@ -15,7 +15,7 @@ class SpecialtiesControllerTest < ActionController::TestCase
     assert_select 'table tr td', 'Oftalmologie'
     assert_select 'a', 'Změna'
     assert_select 'a', 'Zrušení'
-    assert_select 'a', 'Založení nové'
+    assert_select 'a', 'Založení'
   end
 
   test "index must be sorted by name" do
@@ -75,7 +75,7 @@ class SpecialtiesControllerTest < ActionController::TestCase
     assert_select 'h1', header_name
     assert_select 'form', 1
     assert_select 'input', value: "Uložení"
-    assert_select 'a', 'Založení nové'
+    assert_select 'a', 'Založení'
     assert_select 'a', 'Zrušení'
     assert_select 'a', 'Načtení'
     assert_select 'a', 'Rejstřík'

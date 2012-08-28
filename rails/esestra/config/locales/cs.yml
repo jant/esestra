@@ -1,5 +1,10 @@
 cs:
   activerecord:
+    models:
+      specialty: "Specializace"
+    attributes:
+      specialty:
+        name: 'Jméno'
     errors:
       models:
         specialty:
@@ -32,3 +37,20 @@ cs:
               too_long: 'Email ordinace může obsahovat maximálně %{count} znaků'
             web:
               too_long: 'Web ordinace může obsahovat maximálně %{count} znaků'
+
+  layouts:
+    application:
+      title: 'eSestra'
+      subtitle: '...online objednání do ordinace'
+  specialties:
+    index:
+      title: 'Rejstřík specializací'
+  form:
+    insert: 'Založení'
+    update: 'Změna'
+    delete: 'Zrušení'
+    sure: 'Určitě?'
+    save: 'Uložení'
+    load: 'Načtení'
+    index: 'Rejstřík'
+

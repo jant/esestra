@@ -19,7 +19,7 @@ CREATE TABLE `specialties` (
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_specialties_on_name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=892820225 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=892820226 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `surgeries` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

@@ -1,6 +1,6 @@
 #encoding: utf-8
 
-<h1>Specializace</h1>
+<h1><%= t('activerecord.models.specialty') %></h1>
 <br>
 
 <%= form_for(@specialty) do |f| %>
@@ -16,17 +16,17 @@
     <% end %>
 
     <div class="field">
-      <%= f.label :name, 'Jméno' %>
+      <%= f.label :name, t('activerecord.attributes.specialty.name') %>
       <%= f.text_field :name %>
     </div>
     <br>
     <div class="actions">
-      <%= f.submit 'Uložení' %>
+      <%= f.submit t('form.save') %>
       <% if @specialty.id? %>
-        <%= link_to 'Založení nové', new_specialty_path %>
-        <%= link_to 'Zrušení', @specialty, data: { confirm: 'Určitě?' }, method: :delete %>
-        <%= link_to 'Načtení', edit_specialty_path(@specialty) %>
+        <%= link_to t('form.insert'), new_specialty_path %>
+        <%= link_to t('form.delete'), @specialty, data: { confirm: t('form.delete') }, method: :delete %>
+        <%= link_to t('form.load'), edit_specialty_path(@specialty) %>
       <% end %>
-      <%= link_to 'Rejstřík', specialties_path %>
+      <%= link_to t('form.index'), specialties_path %>
     </div>
 <% end %>
