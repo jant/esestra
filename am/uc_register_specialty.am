@@ -1,5 +1,8 @@
 = UseCase <<Register>> Specialty =
 
+== translation ==
+Evidence specializace
+
 == description ==
 Zalozeni/zmena/zruseni [[specialty]] v rejstriku.
 

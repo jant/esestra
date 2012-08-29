@@ -8,4 +8,8 @@ class UseCasesTest < ActionDispatch::IntegrationTest
     assert Specialty.find_by_name('Interna')
   end
 
+  test 'list surgeries' do
+    get '/surgeries'
+    assert_response :success
+  end
 end
