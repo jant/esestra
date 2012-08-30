@@ -37,6 +37,22 @@ cs:
               too_long: 'Email ordinace může obsahovat maximálně %{count} znaků'
             web:
               too_long: 'Web ordinace může obsahovat maximálně %{count} znaků'
+            open_mo:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
+            open_tu:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
+            open_we:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
+            open_th:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
+            open_fr:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
+            open_sa:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
+            open_su:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
+            break:
+              too_long: 'Popis ordinačních hodin může obsahovat maximálně %{count} znaků'
 
   layouts:
     application:

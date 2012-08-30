@@ -8,5 +8,13 @@ class Surgery < ActiveRecord::Base
   validates_length_of :phone, maximum: 200
   validates_length_of :email, maximum: 200
   validates_length_of :web, maximum: 200
+  validates_length_of :open_mo, maximum: 40
+  validates_length_of :open_tu, maximum: 40
+  validates_length_of :open_we, maximum: 40
+  validates_length_of :open_th, maximum: 40
+  validates_length_of :open_fr, maximum: 40
+  validates_length_of :open_sa, maximum: 40
+  validates_length_of :open_su, maximum: 40
+  validates_length_of :break, maximum: 40
 
 end

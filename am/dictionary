@@ -16,8 +16,16 @@ specialty.am
 specialty_name.am
 surgery.am
 surgery_address.am
+surgery_break.am
 surgery_email.am
 surgery_name.am
+surgery_open_fr.am
+surgery_open_mo.am
+surgery_open_sa.am
+surgery_open_su.am
+surgery_open_th.am
+surgery_open_tu.am
+surgery_open_we.am
 surgery_phone.am
 surgery_specialty.am
 surgery_web.am

@@ -19,7 +19,7 @@ CREATE TABLE `specialties` (
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_specialties_on_name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=892820226 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=892820223 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `surgeries` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -31,6 +31,14 @@ CREATE TABLE `surgeries` (
   `web` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
+  `open_mo` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `open_tu` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `open_we` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `open_th` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `open_fr` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `open_sa` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `open_su` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `break` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_surgeries_on_name` (`name`),
   KEY `index_surgeries_on_specialty_id` (`specialty_id`),
@@ -42,3 +50,5 @@ INSERT INTO schema_migrations (version) VALUES ('20120716000001');
 INSERT INTO schema_migrations (version) VALUES ('20120716000002');
 
 INSERT INTO schema_migrations (version) VALUES ('20120716000003');
+
+INSERT INTO schema_migrations (version) VALUES ('20120830193214');

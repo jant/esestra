@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120716000003) do
+ActiveRecord::Schema.define(:version => 20120830193214) do
 
   create_table "addresses", :force => true do |t|
     t.string   "city"
@@ -37,6 +37,14 @@ ActiveRecord::Schema.define(:version => 20120716000003) do
     t.string   "web"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.string   "open_mo"
+    t.string   "open_tu"
+    t.string   "open_we"
+    t.string   "open_th"
+    t.string   "open_fr"
+    t.string   "open_sa"
+    t.string   "open_su"
+    t.string   "break"
   end
 
   add_index "surgeries", ["address_id"], :name => "index_surgeries_on_address_id"

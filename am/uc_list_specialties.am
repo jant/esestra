@@ -8,6 +8,8 @@ System predlozi seznam evidovanych [[specialty]].
 == scenario ==
 System predlozi seznam evidovanych [[specialty]]. Kazda polozka seznamu obsahuje tyto udaje:
   - [[specialty_name]]
+
+Seznam je setrideny podle [[specialty_name]].
    
 == postconditions ==
 

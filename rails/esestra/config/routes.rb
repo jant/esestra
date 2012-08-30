@@ -1,5 +1,7 @@
 Esestra::Application.routes.draw do
   resources :specialties
+  resources :surgeries, only: [:index]
+
 end
 
 # The priority is based upon order of creation:
