@@ -3,6 +3,9 @@
 <h1><%= t('.title') %></h1>
 <br>
 
+<%= link_to t('form.insert'), new_specialty_path %>
+<br><br>
+
 <table>
   <tr>
     <th><%= t('activerecord.attributes.specialty.name') %></th>
@@ -19,7 +22,6 @@
 <% end %>
 </table>
 <br>
-<%= link_to t('form.insert'), new_specialty_path %>
 
 
 

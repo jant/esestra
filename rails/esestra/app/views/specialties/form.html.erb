@@ -1,9 +1,47 @@
 #encoding: utf-8
 
+<script>
+
+    $(document).ready(function () {
+        $('form :submit').attr('disabled', 'disabled');
+
+        $('form :text').change(function () {
+            $('form :submit').removeAttr('disabled');
+            blinking($('form :submit'));
+        });
+
+    });
+
+    var timer;
+
+    $('form :submit').click(function() {
+        clearInterval(timer);
+    });
+
+    function blinking(elm) {
+        timer = setInterval(blink, 10);
+        function blink() {
+            elm.fadeOut(400, function() {
+                elm.fadeIn(400);
+            });
+        }
+    }
+</script>
+
 <h1><%= t('activerecord.models.specialty') %></h1>
 <br>
 
 <%= form_for(@specialty) do |f| %>
+    <div class="actions">
+      <%= f.submit t('form.save') %>
+      <% if @specialty.id? %>
+          <%= link_to t('form.insert'), new_specialty_path %>
+          <%= link_to t('form.delete'), @specialty, data: {confirm: t('form.delete')}, method: :delete %>
+          <%= link_to t('form.load'), edit_specialty_path(@specialty) %>
+      <% end %>
+      <%= link_to t('form.index'), specialties_path %>
+    </div>
+
     <% if @specialty.errors.any? %>
         <div id="error_explanation">
           <ul>
@@ -20,13 +58,4 @@
       <%= f.text_field :name %>
     </div>
     <br>
-    <div class="actions">
-      <%= f.submit t('form.save') %>
-      <% if @specialty.id? %>
-        <%= link_to t('form.insert'), new_specialty_path %>
-        <%= link_to t('form.delete'), @specialty, data: { confirm: t('form.delete') }, method: :delete %>
-        <%= link_to t('form.load'), edit_specialty_path(@specialty) %>
-      <% end %>
-      <%= link_to t('form.index'), specialties_path %>
-    </div>
 <% end %>

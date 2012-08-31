@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd58c45-d9c9-4b6b-b5be-eb9549586c49" name="Default" comment="kompletni model surgery, address, specialty">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/surgeries_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/surgeries_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/cls_surgery.am" afterPath="$PROJECT_DIR$/../../am/cls_surgery.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/dictionary" afterPath="$PROJECT_DIR$/../../am/dictionary" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/surgery.am" afterPath="$PROJECT_DIR$/../../am/surgery.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/uc_list_specialties.am" afterPath="$PROJECT_DIR$/../../am/uc_list_specialties.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/uc_list_surgeries.am" afterPath="$PROJECT_DIR$/../../am/uc_list_surgeries.am" />
+      <change type="DELETED" beforePath="C:\Users\t\prj\esestra\am\.pkg_ucm.am.swp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/surgery.rb" afterPath="$PROJECT_DIR$/app/models/surgery.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/cs.yml" afterPath="$PROJECT_DIR$/config/locales/cs.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/structure.sql" afterPath="$PROJECT_DIR$/db/structure.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/surgeries.yml" afterPath="$PROJECT_DIR$/test/fixtures/surgeries.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/surgery_test.rb" afterPath="$PROJECT_DIR$/test/unit/surgery_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/specialties/form.html.erb" afterPath="$PROJECT_DIR$/app/views/specialties/form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/specialties/index.html.erb" afterPath="$PROJECT_DIR$/app/views/specialties/index.html.erb" />
     </list>
     <ignored path="esestra.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,58 +30,36 @@
       <file leaf-file-name="form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/specialties/form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="36" selection-start="552" selection-end="552" vertical-scroll-proportion="-13.391304">
+            <state line="41" column="23" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-7.130435">
               <folding>
-                <element signature="e#428#471#0" expanded="true" />
-                <element signature="e#572#586#1" expanded="true" />
-                <element signature="e#640#656#0" expanded="true" />
-                <element signature="e#700#716#0" expanded="true" />
-                <element signature="e#747#763#0" expanded="true" />
-                <element signature="e#806#820#0" expanded="true" />
-                <element signature="e#891#906#0" expanded="true" />
+                <element signature="e#730#744#1" expanded="true" />
+                <element signature="e#800#816#0" expanded="true" />
+                <element signature="e#862#878#0" expanded="true" />
+                <element signature="e#908#924#0" expanded="true" />
+                <element signature="e#968#982#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="surgery_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/surgery_test.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/specialties/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="33" selection-start="2719" selection-end="2719" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cs.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/cs.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="17" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.0">
+            <state line="11" column="38" selection-start="219" selection-end="219" vertical-scroll-proportion="-6.695652">
               <folding>
-                <marker date="1346358112129" expanded="true" signature="6:2344" placeholder="activerecord:" />
-                <marker date="1346358112129" expanded="true" signature="123:2344" placeholder="errors:" />
-                <marker date="1346358112129" expanded="true" signature="137:2344" placeholder="models:" />
-                <marker date="1346358112129" expanded="true" signature="761:2344" placeholder="surgery:" />
-                <marker date="1346358112129" expanded="true" signature="780:2344" placeholder="attributes:" />
+                <element signature="e#64#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="surgery.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/surgery.rb">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="use_cases_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/integration/use_cases_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +94,16 @@
       <file leaf-file-name="surgeries_controller_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/functional/surgeries_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="65" selection-start="171" selection-end="171" vertical-scroll-proportion="0.20326678">
+            <state line="13" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.33030853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="specialties.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/specialties.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,11 +135,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/specialties_controller.rb" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/specialties/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/specialties/form.html.erb" />
         <option value="$PROJECT_DIR$/test/functional/specialties_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/integration/use_cases_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120830193214_add_opening_hours_to_surgeries.rb" />
@@ -175,6 +147,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/surgeries_controller.rb" />
         <option value="$PROJECT_DIR$/test/functional/surgeries_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/views/specialties/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/form.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/form.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/specialties/form.html.erb" />
       </list>
     </option>
   </component>
@@ -233,6 +209,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esestra" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -587,37 +573,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="esestra" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.completion" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.completion" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../myFin/rails/myfin" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\t\prj\esestra\rails\esestra\test\functional" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_must_get_index">
+  <component name="RunManager" selected="Rake.test">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="esestra" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -851,13 +827,6 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -885,6 +854,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -1093,19 +1069,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34239733" sideWeight="0.21875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25804663" sideWeight="0.62083334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2608213" sideWeight="0.62083334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.49778023" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34239733" sideWeight="0.36875" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37916666" sideWeight="0.5072142" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37916666" sideWeight="0.48890123" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37916666" sideWeight="0.48890123" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49112096" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1175,39 +1151,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/functional/specialties_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="29" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120830193214_add_opening_hours_to_surgeries.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/specialty.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120716000003_create_surgeries.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/surgery.rb">
@@ -1228,35 +1174,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="17" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1346358112129" expanded="true" signature="6:2344" placeholder="activerecord:" />
-            <marker date="1346358112129" expanded="true" signature="123:2344" placeholder="errors:" />
-            <marker date="1346358112129" expanded="true" signature="137:2344" placeholder="models:" />
-            <marker date="1346358112129" expanded="true" signature="761:2344" placeholder="surgery:" />
-            <marker date="1346358112129" expanded="true" signature="780:2344" placeholder="attributes:" />
+            <marker date="1346358112129" expanded="true" signature="-1:-1" placeholder="activerecord:" />
+            <marker date="1346358112129" expanded="true" signature="-1:-1" placeholder="errors:" />
+            <marker date="1346358112129" expanded="true" signature="-1:-1" placeholder="models:" />
+            <marker date="1346358112129" expanded="true" signature="-1:-1" placeholder="surgery:" />
+            <marker date="1346358112129" expanded="true" signature="-1:-1" placeholder="attributes:" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="834" selection-end="834" vertical-scroll-proportion="0.073555164">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/specialties/form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="552" selection-end="552" vertical-scroll-proportion="-13.391304">
-          <folding>
-            <element signature="e#428#471#0" expanded="true" />
-            <element signature="e#572#586#1" expanded="true" />
-            <element signature="e#640#656#0" expanded="true" />
-            <element signature="e#700#716#0" expanded="true" />
-            <element signature="e#747#763#0" expanded="true" />
-            <element signature="e#806#820#0" expanded="true" />
-            <element signature="e#891#906#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="39" selection-start="834" selection-end="834" vertical-scroll-proportion="0.073555164" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/use_cases_test.rb">
@@ -1294,9 +1223,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/specialties.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/specialties/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="219" selection-end="219" vertical-scroll-proportion="-6.695652">
+          <folding>
+            <element signature="e#64#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/specialties/form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="23" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-7.130435">
+          <folding>
+            <element signature="e#730#744#1" expanded="true" />
+            <element signature="e#800#816#0" expanded="true" />
+            <element signature="e#862#878#0" expanded="true" />
+            <element signature="e#908#924#0" expanded="true" />
+            <element signature="e#968#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/surgeries_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="65" selection-start="171" selection-end="171" vertical-scroll-proportion="0.20326678">
+        <state line="13" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.33030853">
           <folding />
         </state>
       </provider>
