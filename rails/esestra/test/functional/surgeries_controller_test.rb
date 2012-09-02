@@ -13,7 +13,7 @@ class SurgeriesControllerTest < ActionController::TestCase
   test "index must be sorted by name" do
     get :index
     assert_equal assigns(:surgeries)[1].name, 'Odborný oční lékař'
-    assert_select 'table tr:nth-child(3) td', 'Odborný oční lékař'
+    assert_select 'table tr:nth-child(1) td', 'Odborný oční lékař'
   end
 
 end

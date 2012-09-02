@@ -3,25 +3,24 @@
 <h1><%= t('.title') %></h1>
 <br>
 
-<%= link_to t('form.insert'), new_specialty_path %>
+<%= link_to t('form.insert'), new_specialty_path, class: 'button' %>
 <br><br>
 
-<table>
-  <tr>
-    <th><%= t('activerecord.attributes.specialty.name') %></th>
-    <th class="link"></th>
-    <th class="link"></th>
+<table class="index">
+  <tr class="gradient">
+    <th class="index"><%= t('activerecord.attributes.specialty.name') %></th>
+    <th class="index link"></th>
+    <th class="index link"></th>
   </tr>
 
 <% @specialties.each do |specialty| %>
-  <tr class="<%= cycle('white_line', 'shadow_line') %>">
-    <td><%= specialty.name %></td>
-    <td class="link"><%= link_to t('form.update'), edit_specialty_path(specialty) %></td>
-    <td class="link"><%= link_to t('form.delete'), specialty, data: { confirm: t('form.sure') }, method: :delete %></td>
+  <tr class="<%= cycle('white', 'shadow') %>">
+    <td class="index"><%= specialty.name %></td>
+    <td class="index link"><%= link_to t('form.update'), edit_specialty_path(specialty) %></td>
+    <td class="index link"><%= link_to t('form.delete'), specialty, data: { confirm: t('form.sure') }, method: :delete %></td>
   </tr>
 <% end %>
 </table>
-<br>
 
 
 

@@ -1,0 +1,50 @@
+table.index {
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+
+th.index {
+  width: 20em;
+  font-size: 12px;
+  text-align: left;
+  border-left: 1px;
+  border-bottom: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding-left: 2px;
+}
+
+td.index {
+  width: 20em;
+  font-size: 12px;
+  text-align: left;
+  margin: 0, 2px;
+  border-left: 1px;
+  border-color: gray;
+  border-style: solid;
+  padding-left: 2px;
+}
+
+th.link, td.link {
+  width: 5em;
+}
+
+tr.gradient {
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+tr.shadow {
+  background: #f6f6f6;
+}
+
+tr.white {
+}

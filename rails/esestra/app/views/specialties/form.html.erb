@@ -33,13 +33,13 @@
 
 <%= form_for(@specialty) do |f| %>
     <div class="actions">
-      <%= f.submit t('form.save') %>
+      <%= f.submit t('form.save'), class: 'button' %>
       <% if @specialty.id? %>
-          <%= link_to t('form.insert'), new_specialty_path %>
-          <%= link_to t('form.delete'), @specialty, data: {confirm: t('form.delete')}, method: :delete %>
-          <%= link_to t('form.load'), edit_specialty_path(@specialty) %>
+          <%= link_to t('form.insert'), new_specialty_path, class: 'button' %>
+          <%= link_to t('form.delete'), @specialty, data: {confirm: t('form.delete')}, method: :delete, class: 'button' %>
+          <%= link_to t('form.load'), edit_specialty_path(@specialty), class: 'button' %>
       <% end %>
-      <%= link_to t('form.index'), specialties_path %>
+      <%= link_to t('form.index'), specialties_path, class: 'button' %>
     </div>
 
     <% if @specialty.errors.any? %>
