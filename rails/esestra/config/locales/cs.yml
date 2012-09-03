@@ -56,8 +56,8 @@ cs:
 
   layouts:
     application:
-      title: 'eSestra'
-      subtitle: '...online objednání do ordinace'
+      title: 'Do ordinace'
+      subtitle: '...online objednání'
   specialties:
     index:
       title: 'Rejstřík specializací'

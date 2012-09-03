@@ -1,31 +1,9 @@
 #encoding: utf-8
 
 <script>
-
-    $(document).ready(function () {
-        $('form :submit').attr('disabled', 'disabled');
-
-        $('form :text').change(function () {
-            $('form :submit').removeAttr('disabled');
-            blinking($('form :submit'));
-        });
-
+    $(document).ready(function() {
+        set_submit_button($('form :submit'), $('form .field'));
     });
-
-    var timer;
-
-    $('form :submit').click(function() {
-        clearInterval(timer);
-    });
-
-    function blinking(elm) {
-        timer = setInterval(blink, 10);
-        function blink() {
-            elm.fadeOut(400, function() {
-                elm.fadeIn(400);
-            });
-        }
-    }
 </script>
 
 <h1><%= t('activerecord.models.specialty') %></h1>
