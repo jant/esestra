@@ -9,4 +9,3 @@ attributes
   -- [[address_street]]
   street: String
 end
-

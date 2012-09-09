@@ -12,22 +12,6 @@ attributes
   email: String
   -- [[surgery_web]]
   web: String
-  -- [[surgery_open_mo]]
-  open_mo: String
-  -- [[surgery_open_tu]]
-  open_tu: String
-  -- [[surgery_open_we]]
-  open_we: String
-  -- [[surgery_open_th]]
-  open_th: String
-  -- [[surgery_open_fr]]
-  open_fr: String
-  -- [[surgery_open_sa]]
-  open_sa: String
-  -- [[surgery_open_su]]
-  open_su: String
-  -- [[surgery_break]]
-  break: String
 end
 
 -- pattern: Car_has_Colour

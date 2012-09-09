@@ -1,0 +1,50 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+ORL:
+  name: ENT - Med s.r.o., ambulance ORL
+  specialty: ORL
+  address: ORL
+  phone: 541 425 216
+  email: janecdal@seznam.cz
+  web: www.polido.cz
+  open_mo: 8:00-17:00 (15:00-17:00 pouze objednaní)
+  open_tu: 8:00-16:00
+  open_we: 8:00-17:00 (15:00-17:00 pouze objednaní)
+  open_th: 8:00-17:00 (15:00-17:00 pouze objednaní)
+  open_fr: 8:00-14:00
+  open_sa: xxx
+  open_su: xxx
+  break: 12:00-12:30
+
+Ortopedie:
+  name: Ortopedická ambulance
+  specialty: Ortopedie
+  address: Ortopedie
+  phone: 549 242 126
+  email: dr.ambroz@gmail.com
+  web:
+  open_mo: 8:00-13:00
+  open_tu: 8:00-13:00
+  open_we: 8:00-13:00
+  open_th: 8:00-13:00
+  open_fr: 8:00-13:00
+  open_sa: xxx
+  open_su: xxx
+  break: xxx
+
+Oftalmologie:
+  name: Odborný oční lékař
+  specialty: Oftalmologie
+  address: Oftalmologie
+  phone: 542 217 420
+  email: giacintov@volny.cz
+  web: www.giacintov.cz
+  open_mo: 8:00-12:00
+  open_tu: 8:00-12:00
+  open_we: 14:00-18:00
+  open_th: 8:00-12:00
+  open_fr: 8:00-12:00
+  open_sa: xxx
+  open_su: xxx
+  break: xxx
+

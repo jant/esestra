@@ -14,14 +14,6 @@ System predlozi seznam evidovanych [[surgery]]. Kazda polozka seznamu obsahuje t
   - [[surgery_phone]]
   - [[surgery_email]]
   - [[surgery_web]]
-  - [[surgery_open_mo]]
-  - [[surgery_open_tu]]
-  - [[surgery_open_we]]
-  - [[surgery_open_th]]
-  - [[surgery_open_fr]]
-  - [[surgery_open_sa]]
-  - [[surgery_open_su]]
-  - [[surgery_break]]
 
 
 Seznam je setrideny podle [[surgery_name]].
