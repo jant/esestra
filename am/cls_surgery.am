@@ -15,17 +15,23 @@ attributes
 end
 
 -- pattern: Car_has_Colour
-association SurgerySpecialty between
+association Surgery_Specialty between
   Surgery[*]
   -- [[surgery_specialty]]
   Specialty[1]
 end
 
 -- pattern: Person_has_Address
-composition SurgeryAddress between
+composition Surgery_Address between
   Surgery[1]
   -- [[surgery_address]]
   Address[1]
 end
 
+-- pattern: Invoice_has_InvoiceItems
+composition Surgery_OpeningTime between
+  Surgery[1]
+  -- [[opening_time]]
+  OpeningTime[*]
+end
 

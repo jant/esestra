@@ -1,0 +1,21 @@
+= Class OpeningTime =
+
+-- [[opening_time]]
+-- omezeni viz [[uc_validate_opening_time]]
+class OpeningTime 
+attributes
+  -- [[opening_time_begin]]
+  begin: Time
+  -- [[opening_time_end]]
+  end: Time
+  -- [[opening_time_note]]
+  note: String
+end
+
+-- pattern: Car_has_Colour
+association OpeningTime_DayOfWeek between
+  OpeningTime[*]
+  -- [[opening_time_day_of_week]]
+  DayOfWeek[1]
+end
+

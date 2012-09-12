@@ -1,0 +1,19 @@
+= UseCase <<List>> Days Of Week =
+
+== description ==
+System predlozi seznam evidovanych [[day_of_week]].
+
+== preconditions ==
+
+== scenario ==
+System predlozi seznam evidovanych [[day_of_week]]. Kazda polozka seznamu obsahuje tyto udaje:
+  - [[day_of_week_abbreviation]]
+
+Seznam je setrideny podle [[day_of_week_order]].
+
+== postconditions ==
+
+== errors ==
+
+== examples ==
+
