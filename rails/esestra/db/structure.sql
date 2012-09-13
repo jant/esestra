@@ -7,6 +7,14 @@ CREATE TABLE `addresses` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=861938052 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+CREATE TABLE `opening_times` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `day_of_week` int(11) DEFAULT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 CREATE TABLE `schema_migrations` (
   `version` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   UNIQUE KEY `unique_schema_migrations` (`version`)
@@ -42,3 +50,5 @@ INSERT INTO schema_migrations (version) VALUES ('20120716000001');
 INSERT INTO schema_migrations (version) VALUES ('20120716000002');
 
 INSERT INTO schema_migrations (version) VALUES ('20120716000003');
+
+INSERT INTO schema_migrations (version) VALUES ('20120913193930');

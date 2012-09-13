@@ -12,8 +12,8 @@ cls_specialty.am
 cls_surgery.am
 day_of_week.am
 day_of_week_abbreviation.am
+day_of_week_id.am
 day_of_week_name.am
-day_of_week_order.am
 index.am
 opening_time.am
 opening_time_begin.am

@@ -3,20 +3,20 @@
 -- [[day_of_week]]
 class DayOfWeek 
 attributes
+  -- [[day_of_week_id]]
+  id: Integer
   -- [[day_of_week_name]]
   name: String
-  -- [[day_of_week_order]]
-  order: Integer
   -- [[day_of_week_abbreviation]]
   abbreviation: String 
 end
 
 == Objects ==
-  - monday    |1|mo
-  - tuesday   |2|tu
-  - wednesday |3|we
-  - thursday  |4|th
-  - friday    |5|fr
-  - saturday  |6|sa
-  - sunday    |7|su
+  - 1|monday    |mo
+  - 2|tuesday   |tu
+  - 3|wednesday |we
+  - 4|thursday  |th
+  - 5|friday    |fr
+  - 6|saturday  |sa
+  - 7|sunday    |su
 
