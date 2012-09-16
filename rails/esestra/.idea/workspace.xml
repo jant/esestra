@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd58c45-d9c9-4b6b-b5be-eb9549586c49" name="Default" comment="kompletni model surgery, address, specialty">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/day_of_week.rb" />
-      <change type="DELETED" beforePath="C:\Users\t\prj\esestra\am\day_of_week_order.am" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/cls_day_of_week.am" afterPath="$PROJECT_DIR$/../../am/cls_day_of_week.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/dictionary" afterPath="$PROJECT_DIR$/../../am/dictionary" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../am/uc_list_days_of_week.am" afterPath="$PROJECT_DIR$/../../am/uc_list_days_of_week.am" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/esestra.iml" afterPath="$PROJECT_DIR$/.idea/esestra.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/day_of_week_test.rb" />
+      <change type="DELETED" beforePath="C:\Users\t\prj\esestra\am\.cls_day_of_week.am.swp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/day_of_week.rb" afterPath="$PROJECT_DIR$/app/models/day_of_week.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/active_enum.rb" afterPath="$PROJECT_DIR$/config/initializers/active_enum.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/cs.yml" afterPath="$PROJECT_DIR$/config/locales/cs.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120913193930_create_opening_times.rb" afterPath="$PROJECT_DIR$/db/migrate/20120913193930_create_opening_times.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/structure.sql" afterPath="$PROJECT_DIR$/db/structure.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/opening_times.yml" afterPath="$PROJECT_DIR$/test/fixtures/opening_times.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/opening_time_test.rb" afterPath="$PROJECT_DIR$/test/unit/opening_time_test.rb" />
     </list>
     <ignored path="esestra.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +36,25 @@
       <file leaf-file-name="20120913193930_create_opening_times.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20120913193930_create_opening_times.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opening_time.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/opening_time.rb">
+      <file leaf-file-name="20120716000003_create_surgeries.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20120716000003_create_surgeries.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+            <state line="7" column="22" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20120716000001_create_specialties.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20120716000001_create_specialties.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,41 +63,32 @@
       <file leaf-file-name="day_of_week.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/day_of_week.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="4" column="48" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cs.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/locales/cs.yml">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.87697715">
+            <state line="15" column="58" selection-start="312" selection-end="312" vertical-scroll-proportion="0.38251367">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="active_enum.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/active_enum.rb">
+      <file leaf-file-name="opening_time_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/opening_time_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/address.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="specialty.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/specialty.rb">
+      <file leaf-file-name="opening_times.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/opening_times.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -98,10 +96,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="surgery.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/surgery.rb">
+      <file leaf-file-name="specialty_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/specialty_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="0" selection-end="17" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/address_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="18" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,32 +128,9 @@
   <component name="GitLogSettings">
     <option name="myStructureFilterPaths" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///IRB console" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Rails console: esestra" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/surgeries.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/specialties/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/form.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/utils.js" />
         <option value="$PROJECT_DIR$/app/views/specialties/form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/surgery.rb" />
@@ -154,12 +138,15 @@
         <option value="$PROJECT_DIR$/doc/poznamky.txt" />
         <option value="$PROJECT_DIR$/test/fixtures/surgeries.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/db/migrate/20120913193930_create_opening_times.rb" />
-        <option value="$PROJECT_DIR$/app/models/day_of_week.rb" />
         <option value="$PROJECT_DIR$/app/models/opening_time.rb" />
         <option value="$PROJECT_DIR$/config/locales/active_enum.en.yml" />
-        <option value="$PROJECT_DIR$/config/initializers/active_enum.rb" />
         <option value="$PROJECT_DIR$/config/locales/cs.yml" />
+        <option value="$PROJECT_DIR$/config/initializers/active_enum.rb" />
+        <option value="$PROJECT_DIR$/app/models/day_of_week.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/opening_times.yml" />
+        <option value="$PROJECT_DIR$/test/unit/opening_time_test.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20120913193930_create_opening_times.rb" />
+        <option value="$PROJECT_DIR$/test/unit/day_of_week_test.rb" />
       </list>
     </option>
   </component>
@@ -218,12 +205,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="RailsProjectView">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esestra" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -257,6 +244,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esestra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esestra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,12 +577,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="esestra" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -604,29 +609,7 @@
       <recent name="C:\Users\t\prj\esestra\rails\esestra\test\functional" />
     </key>
   </component>
-  <component name="RunManager" selected="IRB console.IRB console">
-    <configuration default="false" name="db:fixtures:load" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="esestra" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:fixtures:load" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DayOfWeekTest">
     <configuration default="false" name="db:rollback" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="esestra" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -674,7 +657,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
-        <env name="RAILS_ENV" value="development" />
+        <env name="RAILS_ENV" value="test" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
@@ -702,6 +685,33 @@
       <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DayOfWeekTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="esestra" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/unit/day_of_week_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -975,19 +985,19 @@
       <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Production: esestra" />
       <item index="4" class="java.lang.String" itemvalue="Rails.Development: esestra" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:fixtures:load" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:rollback" />
-      <item index="7" class="java.lang.String" itemvalue="IRB console.Rails console: esestra" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="9" class="java.lang.String" itemvalue="IRB console.IRB console" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:rollback" />
+      <item index="6" class="java.lang.String" itemvalue="IRB console.Rails console: esestra" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="8" class="java.lang.String" itemvalue="IRB console.IRB console" />
+      <item index="9" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.DayOfWeekTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: esestra" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:rollback" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:fixtures:load" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.DayOfWeekTest" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: esestra" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.IRB console" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:rollback" />
       </list>
     </recent_temporary>
   </component>
@@ -1058,10 +1068,11 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34239733" sideWeight="0.21875" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19422863" sideWeight="0.6213389" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.49778023" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19866815" sideWeight="0.6213389" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39958158" sideWeight="0.49778023" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34239733" sideWeight="0.36875" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37916666" sideWeight="0.5072142" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3786611" sideWeight="0.48890123" order="2" side_tool="false" content_ui="tabs" />
@@ -1070,7 +1081,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49112096" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1140,23 +1150,60 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/fixtures/surgeries.yml">
+    <entry file="file://C:/ruby/lib/ruby/gems/1.9.1/gems/active_enum-0.9.12/lib/active_enum/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
+        <state line="61" column="0" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.3321617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/active_enum.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="56" selection-start="506" selection-end="506" vertical-scroll-proportion="0.21052632">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/poznamky.txt">
+    <entry file="file://$PROJECT_DIR$/config/locales/cs.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
+        <state line="43" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1347824856420" expanded="true" signature="-1:-1" placeholder="cs:" />
+            <marker date="1347824856420" expanded="true" signature="-1:-1" placeholder="active_enum:" />
+            <marker date="1347824856420" expanded="true" signature="-1:-1" placeholder="day_of_week:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/opening_time.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="31" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/test/unit/helpers/specialties_helper_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/address_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="18" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/specialty_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="0" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120716000001_create_specialties.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1168,86 +1215,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120716000001_create_specialties.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120716000003_create_surgeries.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="440" selection-end="440" vertical-scroll-proportion="0.41827768">
+        <state line="7" column="22" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120913193930_create_opening_times.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/address.rb">
+    <entry file="file://$PROJECT_DIR$/test/fixtures/opening_times.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/specialty.rb">
+    <entry file="file://$PROJECT_DIR$/test/unit/opening_time_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/surgery.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/opening_time.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/active_enum.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ruby/lib/ruby/gems/1.9.1/gems/active_enum-0.9.12/lib/active_enum/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.3321617">
+        <state line="3" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/day_of_week.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="48" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/cs.yml">
+    <entry file="file://$PROJECT_DIR$/test/unit/day_of_week_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.87697715">
+        <state line="9" column="33" selection-start="233" selection-end="233" vertical-scroll-proportion="0.22950819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="58" selection-start="312" selection-end="312" vertical-scroll-proportion="0.38251367">
           <folding />
         </state>
       </provider>

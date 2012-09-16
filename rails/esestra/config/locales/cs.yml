@@ -58,3 +58,9 @@ cs:
     day_of_week:
       monday: 'pondělí'
       tuesday: 'úterý'
+      wednesday: 'středa'
+      thursday: 'čtvrtek'
+      friday: 'pátek'
+      saturday: 'sobota'
+      sunday: 'neděle'
+

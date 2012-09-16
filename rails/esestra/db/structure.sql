@@ -9,7 +9,7 @@ CREATE TABLE `addresses` (
 
 CREATE TABLE `opening_times` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `day_of_week` int(11) DEFAULT NULL,
+  `day_of_week` int(11) NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`)

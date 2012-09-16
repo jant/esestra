@@ -12,7 +12,7 @@ ActiveEnum.setup do |config|
 
   # Storage of values (:memory, :i18n)
   # config.storage = :memory
-  config.storage = :i18n
+  config.storage = :i18n  #bez tohoto nefunguje preklady
 
 end
 
