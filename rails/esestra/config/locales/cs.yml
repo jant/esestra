@@ -37,7 +37,10 @@ cs:
               too_long: 'Email ordinace může obsahovat maximálně %{count} znaků'
             web:
               too_long: 'Web ordinace může obsahovat maximálně %{count} znaků'
-
+        opening_time:
+          attributes:
+            day_of_week:
+              blank: 'Den v týdnu je povinný'
   layouts:
     application:
       title: 'Do ordinace'

@@ -8,6 +8,7 @@ omezeni a jsou platne.
  
 == scenario ==
 Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
+  # [[opening_time_day_of_week]] je povinny
   # [[opening_time_begin]] je povinny
   # [[opening_time_end]] je povinny
   # [[opening_time_note]] <= 40
@@ -19,6 +20,7 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   - Udaje na formulari splnuji systemova omezeni a jsou platne.
 
 == errors ==
+  # Den v tydnu je povinny.
   # Zacatek oteviraci doby je povinny.
   # Konec oteviraci doby je povinny.
   # Poznamka k oteviraci dobe muze obsahovat maximalne 40 znaku.
