@@ -1,6 +1,7 @@
 class Surgery < ActiveRecord::Base
   belongs_to :specialty
   belongs_to :address, dependent: :delete
+  has_many :opening_time, dependent: :delete_all
 
   validates_uniqueness_of :name
   validates_presence_of :name, :specialty, :address

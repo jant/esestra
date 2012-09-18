@@ -9,11 +9,12 @@ CREATE TABLE `addresses` (
 
 CREATE TABLE `opening_times` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `surgery_id` int(11) NOT NULL,
   `day_of_week` int(11) NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=966179179 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `schema_migrations` (
   `version` varchar(255) COLLATE utf8_unicode_ci NOT NULL,

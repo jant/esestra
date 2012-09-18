@@ -48,12 +48,15 @@ class SurgeryTest < ActiveSupport::TestCase
   end
 
   test 'must destroy also his component address' do
-    surgery = surgeries('ORL')
-    s_count = Surgery.count
-    a_count = Address.count
-    surgery.destroy
-    assert_equal s_count-1, Surgery.count
-    assert_equal a_count-1, Address.count
+    assert_difference('Address.count', -1) do
+      surgeries('ORL').destroy
+    end
+  end
+
+  test 'must destroy also his components opening_times' do
+    assert_difference('OpeningTime.count', -13) do
+      surgeries('ORL').destroy
+    end
   end
 
 end
