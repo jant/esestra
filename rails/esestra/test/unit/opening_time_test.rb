@@ -13,6 +13,9 @@ class OpeningTimeTest < ActiveSupport::TestCase
     opening_time = OpeningTime.new
     assert opening_time.invalid?
     assert_equal 'Den v týdnu je povinný', opening_time.errors[:day_of_week].first
+    assert_equal 'Ordinace je povinná', opening_time.errors[:surgery].first
+    assert_equal 'Začátek otevírací doby je povinný', opening_time.errors[:begin].first
+    assert_equal 'Konec otevírací doby je povinný', opening_time.errors[:end].first
   end
 
 end

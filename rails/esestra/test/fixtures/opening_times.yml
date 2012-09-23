@@ -1,55 +1,86 @@
 ORL_mo_1:
   surgery: ORL
   day_of_week: 1
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
 
 ORL_mo_2:
   surgery: ORL
   day_of_week: 1
+  begin: 2000-01-01 12:30:00
+  end: 2000-01-01 15:00:00
 
 ORL_mo_3:
   surgery: ORL
   day_of_week: 1
+  begin: 2000-01-01 15:00:00
+  end: 2000-01-01 17:00:00
+  note: pouze objednaní pacienti
 
 ORL_tu_1:
   surgery: ORL
   day_of_week: 2
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
 
 ORL_tu_2:
   surgery: ORL
   day_of_week: 2
+  begin: 2000-01-01 12:30:00
+  end: 2000-01-01 16:00:00
 
 ORL_we_1:
   surgery: ORL
   day_of_week: 3
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
 
 ORL_we_2:
   surgery: ORL
   day_of_week: 3
+  begin: 2000-01-01 12:30:00
+  end: 2000-01-01 15:00:00
 
 ORL_we_3:
   surgery: ORL
   day_of_week: 3
+  begin: 2000-01-01 15:00:00
+  end: 2000-01-01 17:00:00
+  note: pouze objednaní pacienti
 
 ORL_th_1:
   surgery: ORL
   day_of_week: 4
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
 
 ORL_th_2:
   surgery: ORL
   day_of_week: 4
+  begin: 2000-01-01 12:30:00
+  end: 2000-01-01 15:00:00
 
 ORL_th_3:
   surgery: ORL
   day_of_week: 4
+  begin: 2000-01-01 15:00:00
+  end: 2000-01-01 17:00:00
+  note: pouze objednaní pacienti
 
 ORL_fr_1:
   surgery: ORL
   day_of_week: 5
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
 
 ORL_fr_2:
   surgery: ORL
   day_of_week: 5
+  begin: 2000-01-01 12:30:00
+  end: 2000-01-01 14:00:00
 
 Ortopedie_mo_1:
   surgery: Ortopedie
   day_of_week: 1
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 14:00:00

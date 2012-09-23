@@ -41,6 +41,12 @@ cs:
           attributes:
             day_of_week:
               blank: 'Den v týdnu je povinný'
+            surgery:
+              blank: 'Ordinace je povinná'
+            begin:
+              blank: 'Začátek otevírací doby je povinný'
+            end:
+              blank: 'Konec otevírací doby je povinný'
   layouts:
     application:
       title: 'Do ordinace'

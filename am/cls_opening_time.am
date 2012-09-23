@@ -12,6 +12,13 @@ attributes
   note: String
 end
 
+-- pattern: Invoice_has_InvoiceItems
+composition Surgery_OpeningTime between
+  Surgery[1]
+  -- [[opening_time]]
+  OpeningTime[*]
+end
+
 -- pattern: Car_has_Colour
 association OpeningTime_DayOfWeek between
   OpeningTime[*]

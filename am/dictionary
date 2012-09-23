@@ -20,6 +20,7 @@ opening_time_begin.am
 opening_time_day_of_week.am
 opening_time_end.am
 opening_time_note.am
+opening_time_surgery.am
 pkg_bpm.am
 pkg_cm.am
 pkg_ucm.am
