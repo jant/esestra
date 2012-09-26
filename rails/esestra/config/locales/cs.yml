@@ -47,6 +47,11 @@ cs:
               blank: 'Začátek otevírací doby je povinný'
             end:
               blank: 'Konec otevírací doby je povinný'
+            note:
+              too_long: 'Poznámka k otevírací době může obsahovat maximálně %{count} znaků'
+          base:
+            begin_must_be_less_than_end: Začátek otevírací doby musí být dříve než konec
+            begin_must_be_rounded_to_quarters: Začátek otevírací doby musí být zaokrouhlený na čtvrthodiny
   layouts:
     application:
       title: 'Do ordinace'
