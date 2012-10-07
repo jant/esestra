@@ -1,42 +1,158 @@
-.card {
-  background: rgb(229,229,229); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-  width: 280px;
-  height: 255px;
-  border: 1px;
-  border-color: gray;
+div#surgeries {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #E7E7E7;
+}
+
+div.surgery {
+  border-color: #E7E7E7;
   border-style: solid;
-  margin: 0.5em 0.5em 0.5em 0;
-  padding: 0.5em;
+  border-width: 1px;
+  border-bottom: 0px;
+  height: 140px;
+  overflow: hidden;
+  text-align: left;
 }
 
-td.surgeries,p.surgeries {
+div.surgery div.specialty {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 30px;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: bold;
+  /*            color: rgb(0, 39, 90);*/
+  color: #323232;
+  position: absolute;
+}
+
+div.surgery div.address {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 40px;
+  overflow: hidden;
   font-size: 11px;
+  font-weight: normal;
+  color: #235599;
+  position: absolute;
 }
 
-.caption {
+div.surgery div.name {
+  width: 300px;
+  margin-left: 160px;
+  margin-top: 10px;
+  height: 30px;
+  overflow: hidden;
   font-size: 13px;
   font-weight: bold;
-  color: rgb(0,39,90);
+  /*            color: rgb(0, 39, 90);*/
+  color: #323232;
+  position: absolute;
 }
 
-a.button1 {
-  background: rgb(255,255,255); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+div.surgery div.contacts {
+  width: 300px;
+  margin-left: 160px;
+  margin-top: 40px;
+  overflow: hidden;
+  font-size: 11px;
+  font-weight: normal;
+  /*            color: #666;*/
+  color: #235599;
+  position: absolute;
+  /*            background-color: #E5F2FB;*/
+}
 
-  font-size: 13px;
-  font-weight: bold;
-  color: rgb(0,39,90);
+div.surgery div.opening_times {
+  width: 300px;
+  height: 118px;
+  margin-left: 460px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: absolute;
+  background-color: #E5F2FB;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+div.surgery div.opening_times tr.opening_times {
+  height: 16px;
+}
+
+div.surgery div.opening_times .width0 {
+  width: 45px;
+}
+
+div.surgery div.opening_times .width1 {
+  width: 80px;
+}
+
+div.surgery div.opening_times .width2 {
+  width: 150px;
+}
+
+div.surgery div.opening_times .width3 {
+  width: 31px;
+}
+
+div.surgery div.opening_times .width4 {
+  width: 6px;
+}
+
+div.surgery div.opening_times div.day {
+  position: relative;
+  display: inline;
+}
+
+div.surgery div.opening_times div.time {
+  position: relative;
+  display: inline;
+}
+
+div.surgery div.opening_times div.top {
+  overflow: hidden; /*text, ktery se do bunky nevejde, se nezobrazi*/
+  position: absolute;
+  height: 8px;
+  line-height: 8px;
+  font-size: 8px;
+  font-weight: normal;
+  color: #64AD1B;
+  left: 0;
+  top: 0;
+}
+
+div.surgery div.opening_times div.bottom {
+  overflow: hidden; /*text, ktery se do bunky nevejde, se nezobrazi*/
+  position: absolute;
+  height: 10px;
+  line-height: 10px;
+  font-size: 10px;
+  font-weight: normal;
+  color: #235599;
+  left: 0;
+  top: 6px;
+}
+
+div.surgery div.opening_times div.time div.one {
+  text-align: left;
+  display: inline;
+  position: absolute;
+  overflow: hidden;
+}
+
+div.surgery div.opening_times div.time div.two {
+  text-align: center;
+  display: inline;
+  position: absolute;
+  margin-left: 30px;
+  overflow: hidden;
+}
+
+div.surgery div.opening_times div.time div.three {
+  text-align: left;
+  display: inline;
+  position: absolute;
+  margin-left: 36px;
+  overflow: hidden;
 }

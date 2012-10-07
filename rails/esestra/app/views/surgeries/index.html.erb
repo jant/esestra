@@ -1,20 +1,44 @@
 #encoding: utf-8
 
-<table>
-  <tr>
-    <% @surgeries.each do |surgery| %>
-      <td>
-        <div class="card">
-          <p class="caption"><%= surgery.name %></p>
+<div id="surgeries">
+  <% @surgeries.each do |surgery| %>
+      <div class="surgery">
+        <div class="specialty"><%= surgery.specialty.name %></div>
+        <div class="address">
+          <p><%= surgery.address.city %></p>
+
+          <p><%= surgery.address.street %></p>
         </div>
-      </td>
-    <% end %>
-  </tr>
-</table>
+        <div class="name"><%= surgery.name %></div>
+        <div class="contacts">
+          <p><%= surgery.phone %></p>
 
+          <p><%= surgery.email %></p>
 
-
-
-
-
+          <p><a href="http://<%= surgery.web %>"><%= surgery.web %></a></p>
+        </div>
+        <div class="opening_times">
+          <table>
+            <% DayOfWeek.to_select.each do |day| %>
+                <tr class="opening_times">
+                  <td class="width0">
+                    <div class="day width0">
+                      <div class="bottom width0"><%= day[0]%></div>
+                    </div>
+                  </td>
+                  <td class="width1">
+                    <div class="time width1">
+                      <div class="bottom width1">
+                        <div class="one width3"><%= surgery.opening_times.find_by_day_of_week(1).begin %></div>
+                        <div class="two width4">-</div>
+                        <div class="three width3">12:00</div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+  <% end %>
 

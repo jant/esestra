@@ -9,16 +9,11 @@ CREATE TABLE `addresses` (
 
 CREATE TABLE `opening_times` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `surgery_id` int(11) NOT NULL,
-  `day_of_week` int(11) NOT NULL,
-  `begin` time NOT NULL,
-  `end` time NOT NULL,
-  `note` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `day_of_week` int(11) DEFAULT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `index_opening_times_on_surgery_id` (`surgery_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `schema_migrations` (
   `version` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -32,7 +27,7 @@ CREATE TABLE `specialties` (
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_specialties_on_name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=892820225 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=892820223 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `surgeries` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

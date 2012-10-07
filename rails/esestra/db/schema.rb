@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120830193214) do
+ActiveRecord::Schema.define(:version => 20120913193930) do
 
   create_table "addresses", :force => true do |t|
     t.string   "city"
@@ -19,6 +19,18 @@ ActiveRecord::Schema.define(:version => 20120830193214) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "opening_times", :force => true do |t|
+    t.integer  "surgery_id",  :null => false
+    t.integer  "day_of_week", :null => false
+    t.time     "begin",       :null => false
+    t.time     "end",         :null => false
+    t.string   "note"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "opening_times", ["surgery_id"], :name => "index_opening_times_on_surgery_id"
 
   create_table "specialties", :force => true do |t|
     t.string   "name",       :null => false
@@ -37,14 +49,6 @@ ActiveRecord::Schema.define(:version => 20120830193214) do
     t.string   "web"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
-    t.string   "open_mo"
-    t.string   "open_tu"
-    t.string   "open_we"
-    t.string   "open_th"
-    t.string   "open_fr"
-    t.string   "open_sa"
-    t.string   "open_su"
-    t.string   "break"
   end
 
   add_index "surgeries", ["address_id"], :name => "index_surgeries_on_address_id"
