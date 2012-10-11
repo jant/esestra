@@ -16,13 +16,13 @@ end
 composition Surgery_OpeningTime between
   OpeningTime[*]
   -- [[surgery]]
-  Surgery[1]
+  [[cls_surgery|Surgery]][1]
 end
 
 -- pattern: Car_has_Colour
 association OpeningTime_DayOfWeek between
   OpeningTime[*]
   -- [[opening_time_day_of_week]]
-  DayOfWeek[1]
+  [[cls_day_of_week|DayOfWeek]][1]
 end
 

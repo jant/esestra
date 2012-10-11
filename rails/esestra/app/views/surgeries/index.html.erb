@@ -9,13 +9,18 @@
 
           <p><%= surgery.address.street %></p>
         </div>
+        <div class="tlacitko">
+          <form method="link" action="page1.htm">
+            <input class="button" type="submit" value="Objednat">
+          </form>
+        </div>
         <div class="name"><%= surgery.name %></div>
         <div class="contacts">
-          <p><%= surgery.phone %></p>
+          <p>Tel: <%= surgery.phone %></p>
 
-          <p><%= surgery.email %></p>
+          <p>Email: <%= surgery.email %></p>
 
-          <p><a href="http://<%= surgery.web %>"><%= surgery.web %></a></p>
+          <p>Web: <a href="http://<%= surgery.web %>"><%= surgery.web %></a></p>
         </div>
         <div class="opening_times">
           <table>
@@ -23,22 +28,25 @@
                 <tr class="opening_times">
                   <td class="width0">
                     <div class="day width0">
-                      <div class="bottom width0"><%= day[0]%></div>
+                      <div class="bottom width0"><%= day[0] %></div>
                     </div>
                   </td>
-                  <td class="width1">
-                    <div class="time width1">
-                      <div class="bottom width1">
-                        <div class="one width3"><%= surgery.opening_times.find_by_day_of_week(1).begin %></div>
-                        <div class="two width4">-</div>
-                        <div class="three width3">12:00</div>
-                      </div>
-                    </div>
-                  </td>
+                  <% surgery.opening_times.order(:begin).where(day_of_week: (day[1])).each do |opening_time| %>
+                      <td class="width1">
+                        <div class="time width1">
+                          <div class="top width2"><%= opening_time.note %></div>
+                          <div class="bottom width1">
+                            <div class="one width3"><%= opening_time.begin.strftime('%H:%M')%></div>
+                            <div class="two width4">-</div>
+                            <div class="three width3"><%= opening_time.end.strftime('%H:%M')%></div>
+                          </div>
+                        </div>
+                      </td>
+                  <% end %>
                 </tr>
             <% end %>
           </table>
         </div>
       </div>
   <% end %>
-
+</div>

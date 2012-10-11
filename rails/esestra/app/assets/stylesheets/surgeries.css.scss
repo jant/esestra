@@ -1,3 +1,7 @@
+a         {text-decoration: none}
+a:link, a:visited, a:active  {color: #235599;}
+a:hover   {text-decoration: underline}
+
 div#surgeries {
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -38,8 +42,26 @@ div.surgery div.address {
   position: absolute;
 }
 
+div.surgery div.tlacitko {
+  width: 150px;
+  margin-left: 8px;
+  margin-top: 105px;
+  overflow: hidden;
+  position: absolute;
+}
+
+div.surgery .button {
+  font-size: 13px;
+  font-weight: bold;
+  color: #64AD1B;
+  font-style: italic;
+/*  color: #dc143c;*/
+}
+
+
+
 div.surgery div.name {
-  width: 300px;
+  width: 290px;
   margin-left: 160px;
   margin-top: 10px;
   height: 30px;
@@ -52,7 +74,7 @@ div.surgery div.name {
 }
 
 div.surgery div.contacts {
-  width: 300px;
+  width: 290px;
   margin-left: 160px;
   margin-top: 40px;
   overflow: hidden;
@@ -65,9 +87,9 @@ div.surgery div.contacts {
 }
 
 div.surgery div.opening_times {
-  width: 300px;
+  width: 330px;
   height: 118px;
-  margin-left: 460px;
+  margin-left: 450px;
   margin-top: 10px;
   overflow: hidden;
   position: absolute;
@@ -81,7 +103,7 @@ div.surgery div.opening_times tr.opening_times {
 }
 
 div.surgery div.opening_times .width0 {
-  width: 45px;
+  width: 55px;
 }
 
 div.surgery div.opening_times .width1 {
@@ -117,7 +139,10 @@ div.surgery div.opening_times div.top {
   line-height: 8px;
   font-size: 8px;
   font-weight: normal;
+  /*color: #235599;*/
   color: #64AD1B;
+  /*color: rgb(0,39,90);*/
+  /*color: #dc143c;*/
   left: 0;
   top: 0;
 }
@@ -129,7 +154,8 @@ div.surgery div.opening_times div.bottom {
   line-height: 10px;
   font-size: 10px;
   font-weight: normal;
-  color: #235599;
+/*  color: #235599;*/
+  color: rgb(0,39,90);
   left: 0;
   top: 6px;
 }

@@ -1,5 +1,5 @@
 class SurgeriesController < ApplicationController
   def index
-    @surgeries = Surgery.order(:name).all
+    @surgeries = Surgery.joins(:specialty).order('specialties.name, name').all
   end
 end

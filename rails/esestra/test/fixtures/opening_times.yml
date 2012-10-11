@@ -82,5 +82,59 @@ ORL_fr_2:
 Ortopedie_mo_1:
   surgery: Ortopedie
   day_of_week: 1
+  begin: 2000-01-01 11:00:00
+  end: 2000-01-01 16:00:00
+
+Ortopedie_tu_1:
+  surgery: Ortopedie
+  day_of_week: 2
   begin: 2000-01-01 08:00:00
-  end: 2000-01-01 14:00:00
+  end: 2000-01-01 13:00:00
+
+Ortopedie_we_1:
+  surgery: Ortopedie
+  day_of_week: 3
+  begin: 2000-01-01 11:00:00
+  end: 2000-01-01 16:00:00
+
+Ortopedie_th_1:
+  surgery: Ortopedie
+  day_of_week: 4
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 13:00:00
+
+Ortopedie_fr_1:
+  surgery: Ortopedie
+  day_of_week: 5
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 13:00:00
+
+Oftalmologie_mo_1:
+  surgery: Oftalmologie
+  day_of_week: 1
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
+
+Oftalmologie_tu_1:
+  surgery: Oftalmologie
+  day_of_week: 2
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
+
+Oftalmologie_we_1:
+  surgery: Oftalmologie
+  day_of_week: 3
+  begin: 2000-01-01 15:00:00
+  end: 2000-01-01 17:30:00
+
+Oftalmologie_th_1:
+  surgery: Oftalmologie
+  day_of_week: 4
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
+
+Oftalmologie_fr_1:
+  surgery: Oftalmologie
+  day_of_week: 5
+  begin: 2000-01-01 08:00:00
+  end: 2000-01-01 12:00:00
