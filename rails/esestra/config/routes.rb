@@ -1,6 +1,7 @@
 Esestra::Application.routes.draw do
   resources :specialties
   resources :surgeries, only: [:index]
+  match 'calendar' => 'surgeries#calendar'
 
 end
 

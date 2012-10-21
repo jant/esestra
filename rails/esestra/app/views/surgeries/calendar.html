@@ -1,0 +1,64 @@
+<script>
+
+    var plno = ['2012/10/11', '2012/10/14'];
+    var volno = ['2012/10/12', '2012/10/13', '2012/10/15'];
+
+    $(document).ready(function () {
+
+
+        $("#datepicker").datepicker({ numberOfMonths:3, beforeShowDay:higlightDays });
+
+
+        function higlightDays(date) {
+            for (var i = 0; i < plno.length; i++) {
+                if (new Date(plno[i]).toString() == date.toString()) {
+                    return [true, 'plno'];
+                }
+            }
+            for (var i = 0; i < volno.length; i++) {
+                if (new Date(volno[i]).toString() == date.toString()) {
+                    return [true, 'volno'];
+                }
+            }
+            return [true, ''];
+        }
+    });
+</script>
+
+
+<div id="datepicker" style="font-size:60%;"></div>
+<br>
+
+<div class="hasDatapicker" style="font-size:60%;">
+    <div class="ui-widget bla ui-widget-content ui-helper-clearfix ui-corner-all">
+        <table class="timepicker"  style="margin: .3em;">
+            <tr>
+                <td class="day">po 22.10.</td>
+                <td class="ui-datepicker-current-day">
+                    <a class="ui-state-default">07:00</a>
+                </td>
+                <td class="ui-datepicker-current-day">
+                    <a class="ui-state-default">07:30</a>
+                </td>
+                <td class="ui-datepicker-current-day">
+                    <a class="ui-state-default">08:00</a>
+                </td>
+            </tr>
+            <tr style="background-color: #f5f5f5;">
+                <td class="day">út 23.10.</td>
+                <td class="ui-datepicker-current-day">
+                    <a class="ui-state-default">07:00</a>
+                </td>
+                <td class="ui-datepicker-current-day">
+                    <a class="ui-state-default">07:30</a>
+                </td>
+                <td class="ui-datepicker-current-day">
+                    <a class="ui-state-default">08:00</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="day">čt 24.10.</td>
+            </tr>
+        </table>
+    </div>
+</div>

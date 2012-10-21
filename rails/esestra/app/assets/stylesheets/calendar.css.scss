@@ -1,0 +1,44 @@
+
+
+.plno a {
+  background-color: #ffa496 !important;
+  background-image: none !important;
+}
+
+.volno a {
+  background-color: #90ee90 !important;
+  background-image: none !important;
+}
+
+a {
+  background-color: #d3d3d3 !important;
+  background-image: none !important;
+}
+
+.ui-state-active {
+  border: 1px solid black !important;
+}
+
+.ui-datapicker-today {
+  border: 1px solid black !important;
+}
+
+
+.timepicker td.day {
+  padding: .1em .5em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+
+.bla td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+
+.bla td {
+  border: 0;
+  padding: 1px;
+}

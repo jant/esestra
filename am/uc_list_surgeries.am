@@ -16,7 +16,7 @@ System predlozi seznam evidovanych [[surgery]]. Kazda polozka seznamu obsahuje t
   - [[surgery_web]]
 
 
-Seznam je setrideny podle [[surgery_name]].
+Seznam je setrideny podle [[specialty_name]], [[surgery_name]].
 
 == postconditions ==
 
