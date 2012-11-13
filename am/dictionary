@@ -1,6 +1,6 @@
 ac_bpg_administratorske_cinnosti.am
 ac_bpg_esestra.am
-ac_bpg_objednavani_pacientu.am
+ac_bp_objednavani_pacientu.am
 ac_bp_udrzba_rejstriku_specializaci.am
 address.am
 address_city.am
@@ -39,6 +39,7 @@ uc_insert_specialty.am
 uc_list_days_of_week.am
 uc_list_specialties.am
 uc_list_surgeries.am
+uc_patient_booking.am
 uc_register_specialty.am
 uc_update_specialty.am
 uc_validate_address.am

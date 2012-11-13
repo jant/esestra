@@ -1,0 +1,5 @@
+= Activity <<Business Process>> Objednavani pacientu =
+
+Pokud se pacient chce objednat na navstevu ordinace, ktera je zapojena do
+objednavkoveho systemu, tak pouzije [[uc_patient_booking]].
+
