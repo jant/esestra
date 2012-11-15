@@ -7,7 +7,6 @@ Uzivatel u jiz evidovane [[specialty]] v rejstriku zmeni nektere udaje.
   - Je evidovana [[specialty]]. 
 
 == scenario ==
-
 Uzivatel [[uc_determine_specialty|urci]] [[specialty]], jejiz udaje chce zmenit.
 
 System predlozi formular vyplneny udaji urcene [[specialty]]. Uzivatel zada udaje:

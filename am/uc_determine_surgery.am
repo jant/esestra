@@ -1,0 +1,24 @@
+= UseCase <<Determine>> Surgery =
+
+== description ==
+Uzivatel urci prave jednu [[surgery]] evidovanou v rejstriku.
+
+== preconditions ==
+
+== scenario ==
+System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
+  - [[surgery_name]]
+
+Pro zjisteni, ktere [[surgery]] jsou v rejstriku evidovane, uzivatel
+pouzije [[uc_list_surgeries|seznam]].
+  
+Pokud zadanemu jmenu neodpovida zadna evidovana [[surgery]], tak ERR1.
+
+== postconditions ==
+  - Je urcena [[surgery]]. 
+
+== errors ==
+  # Ordinace se jmenem="%1" neni v rejstriku evidovana.
+
+
+

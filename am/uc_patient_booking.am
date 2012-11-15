@@ -9,10 +9,10 @@ Uzivatel se objedna na navstevu ordinace v nekterem z volnych terminu.
 == preconditions ==
 
 == scenario ==
-Uzivatel se podiva, do kterych ordinaci se muze objednat. K tomu pouzije [[uc_list_surgeries]].
-TODO Az bude ordinaci hodne, tak zapojit moznosti filtrovani seznamu vcetne
-treba vyberu kraju na mape.
-Uzivatel vybere ordinaci (stiskem tlacitka "Objednat"), do ktere se chce objednat.
+Uzivatel [[uc_determine_surgery|urci]] [[surgery]], do ktere se chce objednat.
+Uzivatel urci termin, na ktery se chce objednat.
+
+
 Uzivatel vybere pomoci kalendare tyden, ve kterem chce hledat volny termin.
 System predlozi seznam terminu navstev (kazda pulhodina z oteviraci doby ordinace je
 jeden termin) s vyznacenim, ktere jsou volne a ktere jsou obsazene.

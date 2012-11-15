@@ -35,6 +35,7 @@ surgery_specialty.am
 surgery_web.am
 uc_delete_specialty.am
 uc_determine_specialty.am
+uc_determine_surgery.am
 uc_insert_specialty.am
 uc_list_days_of_week.am
 uc_list_specialties.am

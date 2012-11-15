@@ -15,8 +15,10 @@ System predlozi seznam evidovanych [[surgery]]. Kazda polozka seznamu obsahuje t
   - [[surgery_email]]
   - [[surgery_web]]
 
-
 Seznam je setrideny podle [[specialty_name]], [[surgery_name]].
+
+TODO Az bude ordinaci hodne, tak zapojit moznosti filtrovani seznamu vcetne
+treba vyberu kraju na mape. Zatim bez filtrovacich moznosti.
 
 == postconditions ==
 
