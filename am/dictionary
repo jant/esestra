@@ -5,6 +5,7 @@ ac_bp_udrzba_rejstriku_specializaci.am
 address.am
 address_city.am
 address_street.am
+appointment_time.am
 cls_address.am
 cls_day_of_week.am
 cls_opening_time.am
@@ -34,6 +35,7 @@ surgery_phone.am
 surgery_specialty.am
 surgery_web.am
 uc_delete_specialty.am
+uc_determine_appointment_time.am
 uc_determine_specialty.am
 uc_determine_surgery.am
 uc_insert_specialty.am

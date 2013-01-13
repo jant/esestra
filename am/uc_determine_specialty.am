@@ -10,7 +10,7 @@ System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
   - [[specialty_name]]
 
 Pro zjisteni, ktere [[specialty]] jsou v rejstriku evidovane, uzivatel
-pouzije [[uc_list_specialties|seznam]].
+pouzije [[uc_list_specialties|rejstrik]].
   
 Pokud zadanemu jmenu neodpovida zadna evidovana [[specialty]], tak ERR1.
 

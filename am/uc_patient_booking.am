@@ -10,7 +10,7 @@ Uzivatel se objedna na navstevu ordinace v nekterem z volnych terminu.
 
 == scenario ==
 Uzivatel [[uc_determine_surgery|urci]] [[surgery]], do ktere se chce objednat.
-Uzivatel urci termin, na ktery se chce objednat.
+Uzivatel [[uc_determine_appointment_time|urci]] [[appointment_time]], na ktery si chce objednat navstevu.
 
 
 Uzivatel vybere pomoci kalendare tyden, ve kterem chce hledat volny termin.
